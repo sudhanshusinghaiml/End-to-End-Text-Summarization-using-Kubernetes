@@ -1,0 +1,43 @@
+Use cases in the enterprise
+These are some use cases where automatic summarization can be used across the enterprise:
+
+1. Media monitoring The problem of information overload and content shock has been widely discussed. Automatic summarization presents an opportunity to condense the continuous torrent of information into smaller pieces of information.
+
+2. Newsletters Many weekly newsletters take the form of an introduction followed by a curated selection of relevant articles. Summarization would allow organizations to further enrich newsletters with a stream of summaries (versus a list of links), which can be a particularly convenient format in mobile.
+
+3. Search marketing and SEO When evaluating search queries for SEO, it is critical to have a well-rounded understanding of what your competitors are talking about in their content. This has become particularly important since Google updated its algorithm and shifted focus towards topical authority (versus keywords). Multi-document summarization can be a powerful tool to quickly analyze dozens of search results, understand shared themes and skim the most important points.
+
+4. Internal document workflow Large companies are constantly producing internal knowledge, which frequently gets stored and under-used in databases as unstructured data. These companies should embrace tools that let them re-use already existing knowledge. Summarization can enable analysts to quickly understand everything the company has already done in a given subject, and quickly assemble reports that incorporate different points of view.
+
+5. Financial research Investment banking firms spend large amounts of money acquiring information to drive their decision-making, including automated stock trading. When you are a financial analyst looking at market reports and news everyday, you will inevitably hit a wall and won’t be able to read everything. Summarization systems tailored to financial documents like earning reports and financial news can help analysts quickly derive market signals from content.
+
+6. Legal contract analysis Related to point 4 (internal document workflow), more specific summarization systems could be developed to analyze legal documents. In this case, a summarizer might add value by condensing a contract to the riskier clauses, or help you compare agreements.
+
+7. Social media marketing Companies producing long-form content, like whitepapers, e-books and blogs, might be able to leverage summarization to break down this content and make it sharable on social media sites like Twitter or Facebook. This would allow companies to further re-use existing content.
+
+8. Question answering and bots Personal assistants are taking over the workplace and the smart home. However, most assistants are fairly limited to very specific tasks. Large-scale summarization could become a powerful question answering technique. By collecting the most relevant documents for a particular question, a summarizer could assemble a cohesive answer in the form of a multi-document summary.
+
+9. Video scripting Video is becoming one of the most important marketing mediums. Besides video-focused platforms like YouTube or Vimeo, people are now sharing videos on professional networks like LinkedIn. Depending on the type of video, more or less scripting might be required. Summarization can get to be an ally when looking to produce a script that incorporates research from many sources.
+
+10. Medical cases With the growth of tele-health, there is a growing need to better manage medical cases, which are now fully digital. As telemedicine networks promise a more accessible and open healthcare system, technology has to make the process scalable. Summarization can be a crucial component in the tele-health supply chain when it comes to analyzing medical cases and routing these to the appropriate health professional.
+
+11. Books and literature Google has reportedly worked on projects that attempt to understand novels. Summarization can help consumers quickly understand what a book is about as part of their buying process.
+
+12. Email overload Companies like Slack were born to keep us away from constant emailing. Summarization could surface the most important content within email and let us skim emails faster.
+
+13. E-learning and class assignments Many teachers utilize case studies and news to frame their lectures. Summarization can help teachers more quickly update their content by producing summarized reports on their subject of interest.
+
+14. Science and R&D Academic papers typically include a human-made abstract that acts as a summary. However, when you are tasked with monitoring trends and innovation in a given sector, it can become overwhelming to read every abstract. Systems that can group papers and further compress abstracts can become useful for this task.
+
+15. Patent research Researching patents can be a tedious process. Whether you are doing market intelligence research or looking to file a new patent, a summarizer to extract the most salient claims across patents could be a time saver.
+
+16. Meetings and video-conferencing With the growth of tele-working, the ability to capture key ideas and content from conversations is increasingly needed. A system that could turn voice to text and generate summaries from your team meetings would be fantastic.
+
+17. Help desk and customer support Knowledge bases have been around for a while, and they are critical for SAAS platforms to provide customer support at scale. Still, users can sometimes feel overwhelmed when browsing help docs. Could multi-document summarization provide key points from across help articles and give the user a well rounded understanding of the issue?
+
+18. Helping disabled people As voice-to-text technology continues to improve, people with hearing disabilities could benefit from summarization to keep up with content in a more efficient way.
+
+19. Programming languages There have been multiple attempts to build AI technology that could write code and build websites by itself. It is a possibility that custom “code summarizers” will emerge to help developers get the big picture out of a new project.
+
+20. Automated content creation Will robo-writers replace my job? That’s what writers are increasingly
+asking themselves. If artificial intelligence is able to replace any stage of the content creation process, automatic summarization is likely going to play an important role. Related to point 3 (applications in search marketing and SEO), writing a good blog usually goes by summarizing existing sources for a given query. Summarization technology might reach a point where it can compose an entirely original article out of summarizing related search results.

@@ -1,0 +1,540 @@
+Text,Summary
+"JPMorgan Chase has created an internal tool to make sure its ads don't end up next to unsavory content on YouTube.
+
+The company's proprietary algorithm plugs into YouTube's API to select ""safe"" channels for it to advertise on.
+
+From more than 5 million channels the brand has winnowed the list down to 3,000 YouTube channels that its ads appear on.
+
+""The model that Google has built to monetize YouTube may work for it, but it doesn't work for us,"" said Aaron Smolick, executive director of paid-media analytics and optimization at JPMorgan Chase.
+
+
+
+When some brands' ads ended up next to troubling videos on YouTube last March, JPMorgan Chase responded by pulling its ads from the platform.
+
+Dissatisfied with YouTube's slow response, the bank decided to take matters into its own hands and create an internal tool to make sure that its ads don't end up next to unsavory content on YouTube, only going back to YouTube after testing the tool.
+
+The company developed its own proprietary algorithm in-house, and it plugs into YouTube's application programming interface (API) to select ""safe"" channels for its ads to appear on at scale. The algorithm was built by its internal programmatic and media-buying teams.
+
+""When news broke about ads finding their way next to horrific pieces of content, we paused our efforts and pulled our ads from YouTube,"" Jake Davidow, the executive director of media and channel strategy at JPMorgan Chase, told Business Insider. ""We wanted to figure out a scalable solution and make sure we got it right.""
+
+The technology consists of 17 layers or filters, which allow the bank to separate what it deems as good or safe YouTube channels from the bad or unsafe ones. One of the filters, for example, looks at the total video count on a channel, which automatically sifts out channels with one-off viral videos. The bank also looks at channels' subscriber counts, the general topics channels focus on, language, and even the comments on different channels' videos.
+
+""The model that Google has built to monetize YouTube may work for it, but it doesn't work for us,"" said Aaron Smolick, executive director of paid-media analytics and optimization at JPMorgan Chase. ""The attention of protecting a brand has to fall on the actual people within the brand itself.""
+
+The move reflects an increasing skepticism among major marketers regarding digital advertising, with issues of ad fraud, transparency and brand safety coming to a head in 2017. With their ads ending up next to dicey videos or being viewed by bots instead of humans, many advertisers have begun taking charge themselves by bringing advertising in-house and slashing the number of sites and channels they advertise on.
+
+YouTube in particular has been a conundrum for advertisers. The platform came under fire in 2017 for a spate of incidents where ads ended up next to questionable videos, and brands were not exactly happy with its tackling of the problem. But YouTube is too big for most global advertisers to turn away from, even if they don’t have full confidence in it. Users watch an average of 40 minutes a day on YouTube globally.
+
+The bank started white-listing — or pre-approving sites that its ads run on — in March, culling the number from 400,000 down to 5,000, and about 10,000 at present.
+
+It began working on the YouTube algorithm in August and rolled it out in October. From over 5 million channels, it says that it has winnowed the list down to 3,000 channels on YouTube that its ads appear on. The bank says the algorithm has a success rate of 99.9%. The brand also continues to conduct regular manual checks on its channels as well as develop the tool further to make sure that it is foolproof.
+
+""The biggest lesson for us was that we realized that it wasn't a black-and-white conversation with good guys or bad guys, but a gradient,"" Smolick said. ""It isn't necessarily about brand safety, but rather brand appropriateness. That's the next evolution of the debate, with each brand deciding what's appropriate for them and what's not.""","US bank JPMorgan Chase has developed a solution that prevents its ads being placed near unsuitable content on YouTube. A proprietary algorithm with 17 layers of filters that plugs into YouTube's programming system enables JPMorgan to whitelist or pre-approve the channels on which its ads are placed. Launched in October amid dissatisfaction with YouTube's own filters, the in-house software has reduced the number of pre-approved sites from five million to 3,000, with a 99.9% success rate. Aaron Smolick, executive director of paid-media analytics and optimisation, said the problem facing companies wasn't brand safety, but brand appropriateness.
+"
+"Hong Kong’s Crystal Group makes clothes for many of the world’s clothing giants, including H&M, Gap, Fast Retailing (owner of Uniqlo), and L Brands (owner of Victoria’s Secret). It’s the world’s largest apparel maker by production volume, according to research firm Euromonitor, and attracted attention in October for having the biggest IPO on the Hong Kong stock exchange since 2015.
+
+It’s the sort of company you might expect to be pouring R&D money into automation, as labor costs rise in China and the world prepares for a future of robots taking over more repetitive, manual tasks, such as stitching clothes. But that’s not the case, says Andrew Lo, CEO of the Crystal Group.
+
+In an interview with the Financial Times (paywall), Lo says high-tech sewing robots are “interesting” and could change how some companies make clothes, but in the near-term they still can’t beat cheap human labor on cost. Crystal Group plans to increase its human staff in Bangladesh and Vietnam—garment hubs with some of the lowest wages in Asia—by 10% annually in the years ahead. Currently about two-thirds of its sales are made from clothes produced in Bangladesh, Vietnam, Cambodia, and Sri Lanka, which have all become more attractive to garment manufacturers as producing in China, still the global leader in clothing production, gets more expensive.
+
+Experts are cautiously watching how automation might affect the garment industry, which is a lifeline to millions of less-skilled workers in Asia and elsewhere, even as many of the jobs can be exploitative and dangerous. The International Labor Organization warned in 2016 that robots could replace the majority of textile, clothing, and footwear workers in Indonesia, Vietnam, and Cambodia in the coming decades. These workers could move into better jobs, but only if governments and employers start training them for those more skilled roles sooner than later.
+
+For now, at least, Crystal Group will not be replacing humans with machines. One reason is that while robots in use in other industries can work easily with stiff materials, such as sheets of metal or plastic, they can’t yet work with soft, flexible fabrics that stretch and distort during sewing. “The handling of soft materials is really hard for robots,” Lo said.
+
+A few companies believe they’ve solved the issue. Sewbo treats fabrics so that they become stiff and rigid for stitching, but return to normal when rinsed in hot water. SoftWear Automation, meanwhile, created a robotic table that uses machine vision to adjust on the spot to stretching and distortion in the fabric as it sews. SoftWear says one of these sewbots can make as many t-shirts per hour as about 17 humans working in a conventional set-up.
+
+SoftWear Automation SoftWear Automation’s ultra-fast sewbot.
+
+But Palaniswamy Rajan, SoftWear’s chief executive, admitted to the Financial Times that, when it comes to price, his sewbots can’t beat workers in Bangladesh. The original aim of SoftWear’s technology was to make clothes more cheaply in the US, where human wages are much higher. Rajan says robots could still be the best option for producing locally in the US when you factor in shipping costs, import duties, and the advantage of short lead times.
+
+For now, though, most brands will likely keep their production in Asia, where it will be done by human hands.","The CEO of Hong Kong-based clothing manufacturer Crystal Group has said cheap human labour is preferable to using robots. Andrew Lo told the Financial Times the company plans to increase its workforce in Bangladesh and Vietnam by 10% in the coming years. The two countries, along with Cambodia and Sri Lanka, account for two-thirds of the output from Crystal, which makes clothes for brands including H&M and Gap. Low wages mean there is currently no cost advantage to increased automation, according to Lo, particularly given the technical challenges of using robots to work on soft materials.
+"
+"Increases in minimum wage levels risk raising the pace of mechanisation in the workplace, according to the Institute for Fiscal Studies (IFS).
+
+A report for the economic think tank urges ""extremely careful"" monitoring of wage rates over the coming years as statutory pay goes up and employers look to cut costs.
+
+The National Living Wage, which applies to workers aged 25 and over, is set to rise to £7.83 per hour from April from a current rate of £7.50.
+
+Current ambitions will see it hit 60% of median wages in 2020 - around £8.56 if forecasts prove accurate.
+
+Please use Chrome browser for a more accessible video player Could robots replace human workers?
+
+The IFS said those set to be brought within the minimum wage net in 2020 are more than twice as likely to be in the 10% most ""routine"" occupations as those who were directly affected by the minimum wage in 2015.
+
+Advertisement
+
+It said that leaves roles such as retail cashiers and receptionists at the mercy of potential automation. However, the report admitted the future was ""uncertain"" and that the loss of some jobs to automation could open other opportunities.
+
+The report was released after a separate study in the summer warned that 15 million UK jobs ""could disappear due to technological disruption"".
+
+IFS research economist Agnes Norris Keiller, who wrote the study, said: ""The fact that there seemed to be a negligible employment impact of a minimum at £6.70 per hour - the 2015 rate - does not mean that the same will be true of the rate of over £8.50 per hour that is set to apply in 2020.
+
+""Beyond some point, a higher minimum must start affecting employment, and we do not know where that point is.""
+
+She added: ""Meanwhile even higher rates, as proposed for example by the Labour Party, would bring even more employees in more automatable jobs into the minimum wage net.""
+
+Shadow business secretary Rebecca Long Bailey said: ""Technological change, if harnessed effectively, could bring about immense benefits - transforming jobs and workplaces and driving up productivity and living standards.
+
+""All workers should be paid a full and fair wage, which is why Labour has pledged to introduce a Real Living Wage of at least £10 an hour by 2020, as well as support for smaller businesses to pay it.
+
+""Labour will invest in our country's future, new technologies, our businesses, our infrastructure and people. Higher wages, good jobs, greater investment in skills and technology to boost productivity and high employment all goes
+
+together. They are complements, not trade-offs.""
+
+A Government spokesman responded: ""The National Living Wage is creating a stronger economy and a fairer society, having delivered the fastest pay rise for the lowest earners in 20 years.
+
+""But we also want to create highly-skilled, well-paid jobs for the future, backing innovation and supporting the development of new skills through our Industrial Strategy.
+
+""That's why the Government is working with industry to ensure the benefits of new technologies are felt across different sectors and regions.""","The UK Institute for Fiscal Studies has warned that a higher National Living Wage brings with it the possibility of more jobs being automated, as employers look to keep costs down. The current £7.50 ($10.18) hourly rate is set to rise to £7.83 in April and could rise to £8.56 by 2020. IFS research economist Agnes Norris Keiller said there was a ""negligible impact on employment with the 2015 hourly rate of £6.70 and added: ""beyond some point, a higher minimum must start affecting employment, and we do not know where that point is"".
+"
+"MUMBAI: About 250 companies, including some of the top staterun banks , have bought cyber insurance cover, which is 50% more than what was sold in the past year. With rising attacks, insurers expect robust future demand for cyber risk insurance in India.Today, cyber risk is the most discussed risk topic-area in board rooms. Marsh India, a Mumbai-based insurance broking firm with a large share in the cyber segment, saw a 50% increase in companies buying cyber security cover in 2017 compared with 2016.Cyber liability insurance has been around in the international markets for more than a decade. However, Indian insurers have started writing this business for only three years now. It covers losses arising from a cyber attack or incident of data breach. Mostly banks and ecommerce companies have been buying large covers.The size of cyber insurance premium is Rs 200 crore. It is expected to grow to Rs 400 crore in the next couple of years. There is huge demand for cyber insurance policies after the telecom revolution and various initiatives have pushed increasing digitisation of the economy. “Cyber insurance is going through a similar phase of active dialogue which we saw for Directors’ and Officers’ liability insurance in India 15 years ago,” said Sanjay Kedia, country head, Marsh India.“One major difference though is that the cyber risk incident is on the rise at a much faster pace, and the nature of risk is far more dynamic and possibly explosive in many situations.” In 2017, public sector lender Union Bank of India was hacked and a whopping $171 million was debited from the bank’s account through Society for Worldwide Interbank Financial Telecommunication or SWIFT payments without the bank’s authorisation.The money was retrieved after the bank acted with the help of government agencies. In 2016, card data of 3.2 million customers was stolen from a network of Yes Bank ATMs managed by Hitachi Payment Services. Banks in India had to reissue cards and faced a combined loss of more than $2 million after hackers allegedly penetrated the system that carried out the processing of ATM transactions. There have been cases of mobile phone applications of banks being hacked by cyber-criminals. The pilferage of personal information and money in digital wallets has cost banks crores of rupees.","Demand for cyber insurance among Indian companies has spiked by roughly 50%, with around 250 top companies opting for coverage. Indian underwriters reportedly began offering such policies only three years ago. Increased popularity of this type of insurance comes following a 2017 hack on public-sector lender Union Bank of India. The attack resulted in $171m being debited from the bank's account without authorisation. 
+"
+"GOLMUD, China -- The world is on the brink of an electric vehicle revolution. The widespread use of electric cars will depend on the availability of lithium, which is crucial for electric vehicle batteries. China is the world's second-richest country in lithium reserves, after Chile.
+
+Countries are now scrambling to secure supplies of the valuable metal, but where is it found? I visited a remote area of China, about 3,000 meters above sea level, that is one of the world's largest lithium-producing areas and which the Chinese government considers a strategic region. ""Huge amounts of capital are rapidly flowing into the town,"" a local resident said.
+
+In late November, I took a full day to travel from Guangzhou, Guangdong Province, in southern China, to Golmud in the country's inland province of Qinghai. The air is thin in the area, located high in the mountains between the Tibet Autonomous Region and the Xinjiang Uighur Autonomous Region, and I could walk only a little way before I was short of breath.
+
+""This airport was completed only a little over a month ago. It's brand-new,"" said an official. I assumed it had been built in anticipation of rapidly growing lithium demand. I got into the four-wheel-drive Land Cruiser that had come to pick me up, and, soon after leaving the airport, I saw a vast expanse of salt marsh extending as far as the eye could see. ""The elevation here is high, but in ancient times all this area was under the sea. Crustal movements lifted it up,"" the driver, a local man, told me.
+
+World of salt
+
+While I marveled at the grand scale of the landscape, we traveled about an hour and a half to Chaerhan Salt Lake, which takes its name from a Mongolian word meaning ""world of salt."" At an elevation of nearly 3,000 meters, in the freezing cold and clear air, the vast lake sparkled in the sunlight. Surrounded by large volumes of dried salt, it looked like it was wearing snow makeup. The locals call the lake the ""mirror of the sky.""
+
+The area centering on Chaerhan Salt Lake, is home to 83% of China's lithium deposits, found within several meters of salt sediment on the lake floor.
+
+No living things inhabit the lake or its surroundings, so silence reigned. However, soon 10-ton trucks loaded with heaps of salt recovered from the lake began rumbling by, and the lithium-producing area appeared to suddenly come to life.
+
+After traveling a little farther along a bumpy road built of pressed salt, I spoke to a man named Li Jingwei, 47. He said he had worked for a plant of a state-owned company by the lake since he was 16, and called himself an experienced old hand. ""The salt lake provides lots of precious resources. Attention is now on lithium, which is used in electric vehicles,"" he said. ""Small developers have been driven out, and over the past three years, state-owned enterprises have come in and investment has become active. This is such a remote place, but many dignitaries come here.""
+
+Lithium recovered from Chaerhan Salt Lake is used to make electric vehicle batteries. The area around the lake appeared to have come to life. (Photo by Yu Nakamura)
+
+I wondered which dignitaries visited such a remote place, and was surprised to see the photographs on a wall of the plant where Li was working.
+
+Electric car maker moves in
+
+The photos showed Wen Jiabao, Zhang Dejiang, Li Changchun, Zhao Leji, Li Keqiang and other high-level dignitaries. They even included one that showed President Xi Jinping encouraging the employees during his visit in August last year. ""Jiang Zemin also came, though there is no photograph of him here. This is a front-line base for China's resources,"" Li said proudly.
+
+The auto industry is already ramping up for what is expected to be a rapid shift from gasoline to electric vehicles, and as a result, lithium prices have already soared. On Shanghai's metals market, lithium carbonate is trading at around 170,000 yuan ($25,700) per ton, more than three times the level two years ago.
+
+""The price of lithium has risen, and business is good. We expect even better times,"" said a factory worker of BYD, China's biggest electric vehicle manufacturer. BYD moved into the area a year ago, realizing that Chaerhan Salt Lake holds the key to electric vehicle growth, and has succeeded in securing a concession for recovering lithium. It jointly set up the factory with a local state-owned enterprise, and is hurriedly preparing to start production.
+
+In China, the world's biggest automobile market, electric vehicles still account for only about 2% of new car sales. However, the country's electric car market is expected to grow rapidly and reach 5 million vehicles by 2025 -- comparable to Japan's entire market for new cars. Preparations are already underway in this remote area of China. A massive wave of business activity that will influence the world is about to spread from the quiet city of Golmud.","A remote salt lake in the Chinese inland province of Qinghai is home to 83% of the country's lithium deposit. The metal is crucial for the development of electric vehicle (EV) batteries and China is the second richest country in terms of reserves, after Chile. The majority of its lithium can be found within salt sediment on the floor of Chaerhan Salt Lake. Companies such as major Chinese EV maker BYD have begun setting up factories in the area after securing a concession for recovering lithium."
+"Children’s snacking habits are setting them up for obesity and poor health, Public Health England has warned, calling on parents to take a tougher line on sweets and cakes and fizzy drinks between meals.
+
+Children in England are eating on average at least three unhealthy high-calorie sugary snacks and drinks every day, says PHE, and about a third of children eat four or more. It is urging parents to draw the line at two and make sure they are not more than 100 calories each.
+
+The diet of the average child can contain three times more sugar than recommended, says PHE. Half the equivalent of seven sugar cubes a day they consume comes from unhealthy snacks and drinks. Each year that includes almost 400 biscuits, more than 120 cakes, 100 sweets, 70 chocolate bars and 70 ice creams, washed down with more than 150 juice drink pouches and cans of fizzy drink.
+
+The slogan of a new campaign under the Change4Life banner is: “Look for 100 calorie snacks, two a day max”.
+
+That could lead to a significant change in diet. An ice-cream contains about 175 calories, a pack of crisps contains about 190 calories, a chocolate bar contains about 200 calories and a pastry contains about 270 calories, says PHE.
+
+There will be a drive to encourage healthier snacking, with signposting at supermarkets and special offers on fruit and vegetables. Parents can sign up on the Change4Life website to get vouchers for money off snacks PHE identifies as healthier, such as malt loaf, lower sugar fromage frais, and drinks with no added sugar.
+
+Other snack foods PHE says are healthier include fresh or tinned fruit salad, chopped vegetables and lower fat hummus, plain rice cakes, crackers, lower fat cheese, small low-fat, lower sugar yoghurt, sugar free jelly, crumpets and Scotch pancakes.
+
+Dr Alison Tedstone, chief nutritionist at Public Health England, said: “The true extent of children’s snacking habits is greater than the odd biscuit or chocolate bar. Children are having unhealthy snacks throughout the day and parents have told us they’re concerned.
+
+“To make it easier for busy families, we’ve developed a simple rule of thumb to help them move towards healthier snacking – look for 100 calorie snacks, two a day max.”
+
+The campaign will include a new TV advert from Aardman Animations as well as leaflets in schools.
+
+Justine Roberts, CEO and founder of Mumsnet, said: “The volume of sugar kids are getting from snacks and sugary drinks alone is pretty mindblowing, and it can often be difficult to distinguish which snacks are healthy and which aren’t.
+
+A third of children are leaving primary school obese or overweight. Recent figures from the National Child Measurement Programme in schools show the number of obese children in reception year has risen for the second consecutive year (to 9.6%) and has shown no improvement in year 6 (20%).
+
+A quarter of children (24.7%) suffer from tooth decay by the time they turn five. Tooth extraction is the most common cause of hospital admissions in children aged 5 to 9 years.","Public Health England (PHE) has called for parents to limit their children to two sugary snacks of no more than 100 calories each per day, as part of a new Change4Life campaign. At present, children in England are consuming a daily average of at least three high-calorie sweet snacks and drinks, with a third of children eating four or more. PHE said that children’s food intake can contain three times the recommended amount of sugar on average. The campaign will include money-off vouchers for healthier snacks, a TV advert by Aardman Animations and leaflets in schools.
+"
+"Diageo is starting the new year with a resolution not to advertise on Snapchat — at least not until it can be sure of the social network’s ability to keep its ads away from users under the legal drinking age.
+
+The alcohol advertiser has stopped all advertising on Snapchat while it tries to understand how its ads may have inadvertently reached the social network’s youngest users. Diageo has not taken “sufficient” care to prevent its ads from reaching kids and teenagers, the Advertising Standards Authority concluded after an investigation, the results of which were announced on Jan. 3. The ASA banned Diageo from running a sponsored lens for its Captain Morgan rum brand ever again.
+
+While the lens debuted last summer without sparking any complaints from the public, the ASA decided it needed to be investigated due to concerns it appealed to people under the legal drinking age. The regulator wanted to set a “precedence” in this space, revealed an ASA spokesman, who added Captain Morgan is the first branded Snapchat lens to be banned in the U.K.
+
+The rationale behind the decision was simple enough. By adding a beard and a pirate hat to a user’s face, the lens broke strict alcohol advertising rules on targeting kids, specifically on how ads must not use real or fictitious characters who are likely to encourage kids and teenagers to drink.
+
+The ruling relies on the assumption that a significant portion of Snapchatters claim to be over 18 when they are not.
+
+
+
+Diageo, however, stressed it bought the lens, which typically cost between $500,000 (£368,000) and $1 million (£736 million) per day, last year based on assurances Snapchat had given it. At the time Diageo ran the campaign, Snapchat had not launched the interest-based targeting it has since claimed allow brands to supplement age with behavioral data to infer the ages of potential audiences. Those updates are currently being discussed between the platform and the alcohol advertiser.
+
+Captain Morgan took “all reasonable steps to ensure the content we put on Snapchat was not directed at under 18s,” said a spokeswoman for the brand. Diageo has now stopped all advertising on Snapchat globally, the spokeswoman added.
+
+Any future investigations could stunt Snapchat’s plans to win over more alcohol advertisers. The social network has been trying to convince alcohol brands they have nothing to fear about marketing on the teen-friendly app but announcements like the ASA’s ruling threaten to undermine those efforts. Snapchat may have age-gating restrictions not to dissimilar to rivals Facebook and Instagram, and yet its status as a kid-friendly app potentially leave it open to greater scrutiny.
+
+For example, Instagram does not ask for age. Instead, the social network pulls the age from a person’s Facebook profile if they have connected accounts. If not, Instagram prompts users for their age but does not use additional signals to determine whether the figure given is true, making it potentially less secure than Snapchat.
+
+The issue with age verification on social media platforms is that if people want to circumnavigate it, they can and will, said Norm Johnston, chief digital officer at Mindshare Worldwide. “Brands that operate with age restrictions around advertising, whether that is alcohol, gambling or something else, always have the potential to run into this kind of trouble,” added Johnston.","Drinks company Diageo has withdrawn all its advertising from Snapchat, following a ruling by the UK Advertising Standards Authority that it did not do enough to ensure a campaign for Captain Morgan's rum, using a pirate lens, did not reach users below the legal drinking age. The Captain Morgan lens has become the first Snapchat lens to be banned in the UK. Diageo and Snapchat are said to be discussing updates to interest-based targeting that allow brands to infer user age, which were only applied by the social media site after the campaign.
+"
+"Public sector organisations have quadrupled the amount of money they spend on insuring against terror attacks over the past year, in a bid to protect against disruption to their services.
+
+Around £56m of contract awards for insurance services that include terror cover were issued in 2017, up from £14m the previous year, according to data company Tussell, which tracks public contracts.
+
+Typically, terrorism cover will insure an organisation against damage to its property in the event of a terror attack.
+
+One of the most recent contracts awarded was to Fidelis Underwriting to insure Southwark Council’s headquarters building at 160 Tooley Street, which is close to the site of the London Bridge attack in June. The contract, worth £34,000, means the insurer would pay out for damage to the building in the event of another attack.
+
+There have been moves from the insurance industry to try to broaden coverage, in the wake of attacks this year. Current rules were established during the Nineties, when the major threat was from the IRA.
+
+More recent attacks have been less damaging to physical assets but have resulted in major business disruption. Neil Coyle, MP for Bermondsey and Old Southwark, hit out at insurers in the wake of the Borough Market attack after traders struggled to get payouts, suggesting losses were around £1.4m.","The UK's public sector has increased its spending on insurance against terrorist attacks four-fold over the past 12 months. Roughly £56m ($76m) of contracts included terrorism coverage were underwritten in 2017, up from £14m in 2016. Recent attacks are said to have caused less physical damage than previous incidents. Business interruption from these attacks, however, has been notable, with insurers criticised for failing to get payouts to businesses impacted by last year's attack at Borough Market, losses from which are estimated to have been £1.4m. 
+"
+"A Kyushu University research team realized continuous electrochemical synthesis of an alcoholic compound from a carboxylic acid using a polymer electrolyte alcohol electrosynthesis cell, which enables direct power charge into alcoholic compound. Credit: Masaaki Sadakiyo / International Institute for Carbon-Neutral Energy Research, Kyushu University
+
+Interest in renewable energy continues to grow. Many renewables, though, can be frustratingly intermittent. When the sun stis obscured by clouds, or the wind stops blowing, the power fluctuates. The fluctuating supply can be partly smoothed out by energy storage during peak production times. However, storing electricity is not without its challenges.
+
+Recently, a team at Kyushu University created a device to store energy in chemical form through continuous electrolysis. The researchers noted that glycolic acid (GC) has a much greater energy capacity than hydrogen, one of the more popular energy storage chemicals. GC can be produced by four-electron reduction of oxalic acid (OX), a widely available carboxylic acid. As described in their publication in Scientific Reports, the team devised an electrolytic cell based on a novel membrane-electrode assembly. Sandwiched between two electrodes are an iridium oxide-based anode and a titanium dioxide (TiO2)-coated titanium (Ti) cathode, linked by a polymer membrane.
+
+""Flow-type systems are very important for energy storage with liquid-phase reaction,"" says lead author Masaaki Sadakiyo. ""Most electrolyzers producing alcohols operate a batch process, which is not suitable for this purpose. In our device, by using a solid polymer electrolyte in direct contact with the electrodes, we can run the reaction as a continuous flow without addition of impurities (e.g. electrolytes). The OX solution can effectively be thought of as a flowable electron pool.""
+
+Another key consideration is the cathode design. The cathodic reaction is catalyzed by anatase TiO2. To ensure a solid connection between catalyst and cathode, the team ""grew"" TiO2 directly on Ti in the form of a mesh or felt. Electron microscope images show the TiO2 as a wispy fuzz, clinging to the outside of the Ti rods like a coating of fresh snow. In fact, its job is to catalyze the electro-reduction of OX to GC. Meanwhile, at the anode, water is oxidized to oxygen.
+
+The team found that the reaction accelerated at higher temperatures. However, turning the heat up too high encouraged an unwanted by-process—the conversion of water to hydrogen. The ideal balance between these two effects was at 60°C. At this temperature, the device could be further optimized by slowing the flow of reactants, while increasing the amount of surface area available for the reaction.
+
+Interestingly, even the texture of the fuzzy TiO2 catalyst made a major difference. When TiO2 was prepared as a ""felt,"" by growing it on thinner and more densely packed Ti rods, the reaction occurred faster than on the mesh—probably because of the greater surface area. The felt also discouraged hydrogen production, by blanketing the Ti surface more snugly than the mesh, preventing the exposure of bare Ti.
+
+""In the right conditions, our cell converts nearly 100 percent of OX, which we find very encouraging,"" co-author Miho Yamauchi says. ""We calculate that the maximum volumetric energy capacity of the GC solution is around 50 times that of hydrogen gas. To be clear, the energy efficiency, as opposed to capacity, still lags behind other technologies. However, this is a promising first step to a new method for storing excess current.""
+
+Explore further Self-healing catalyst films for hydrogen production
+
+More information: Masaaki Sadakiyo et al, Electrochemical Production of Glycolic Acid from Oxalic Acid Using a Polymer Electrolyte Alcohol Electrosynthesis Cell Containing a Porous TiO2 Catalyst, Scientific Reports (2017). Journal information: Scientific Reports Masaaki Sadakiyo et al, Electrochemical Production of Glycolic Acid from Oxalic Acid Using a Polymer Electrolyte Alcohol Electrosynthesis Cell Containing a Porous TiO2 Catalyst,(2017). DOI: 10.1038/s41598-017-17036-3
+
+Provided by Kyushu University, I2CNER","Researchers at Kyushu University have created a device to store chemical energy through continuous electrolysis using glycolic acid, which they say has around 50 times the energy storage capacity of hydrogen. The team made an electrolytic cell using a new membrane-electrode assembly using an iridium oxide-based anode and a titanium dioxide-coated titanium cathode. The ideal operating temperature for the reaction is 60C, they said. ""The energy efficiency, as opposed to capacity, still lags behind other technologies"", said study co-author, Miho Yamauchi. ""However, this is a promising first step."""
+"Sarah Wallace (L), NASA microbiologist and Genes in Space-3 principal investigator, and Sarah Stahl (R), microbiologist, are seen in their Johnson Space Center lab with the in-flight sample from the Genes in Space-3 investigation. Credit: Rachel Barry
+
+Being able to identify microbes in real time aboard the International Space Station, without having to send them back to Earth for identification first, would be revolutionary for the world of microbiology and space exploration. The Genes in Space-3 team turned that possibility into a reality this year, when it completed the first-ever sample-to-sequence process entirely aboard the space station. Results from their investigation were published in Scientific Reports.
+
+The ability to identify microbes in space could aid in the ability to diagnose and treat astronaut ailments in real time, as well as assisting in the identification of DNA-based life on other planets. It could also benefit other experiments aboard the orbiting laboratory. Identifying microbes involves isolating the DNA of samples, and then amplifying - or making many copies - of that DNA that can then be sequenced, or identified.
+
+The investigation was broken into two parts: the collection of the microbial samples and amplification by Polymerase Chain Reaction (PCR), then sequencing and identification of the microbes. NASA astronaut Peggy Whitson conducted the experiment aboard the orbiting laboratory, with NASA microbiologist and the project's Principal Investigator Sarah Wallace and her team watching and guiding her from Houston.
+
+As part of regular microbial monitoring, petri plates were touched to various surfaces of the space station. Working within the Microgravity Science Glovebox (MSG) about a week later, Whitson transferred cells from growing bacterial colonies on those plates into miniature test tubes, something that had never been done before in space.
+
+Once the cells were successfully collected, it was time to isolate the DNA and prepare it for sequencing, enabling the identification of the unknown organisms - another first for space microbiology. An historic weather event, though, threatened the ground team's ability to guide the progress of the experiment.
+
+""We started hearing the reports of Hurricane Harvey the week in between Peggy performing the first part of collecting the sample and gearing up for the actual sequencing,"" said Wallace.
+
+When JSC became inaccessible due to dangerous road conditions and rising flood waters, the team at Marshall Space Flight Center's Payload Operations Integration Center in Huntsville, Alabama, who serve as ""Mission Control"" for all station research, worked to connect Wallace to Whitson using Wallace's personal cell phone.
+
+With a hurricane wreaking havoc outside, Wallace and Whitson set out to make history. Wallace offered support to Whitson, a biochemist, as she used the MinION device to sequence the amplified DNA. The data were downlinked to the team in Houston for analysis and identification.
+
+NASA astronaut Peggy Whitson performed the Genes in Space-3 investigation aboard the space station using the miniPCR and MinION, developed for previously flown investigations. Credit: NASA
+
+""Once we actually got the data on the ground we were able to turn it around and start analyzing it,"" said Aaron Burton, NASA biochemist and the project's co-investigator. ""You get all these squiggle plots and you have to turn that into As, Gs, Cs and Ts.""
+
+Those As, Gs, Cs and Ts are Adenine, Guanine, Cytosine and Thymine - the four bases that make up each strand of DNA and can tell you what organism the strand of DNA came from.
+
+""Right away, we saw one microorganism pop up, and then a second one, and they were things that we find all the time on the space station,"" said Wallace. ""The validation of these results would be when we got the sample back to test on Earth.""
+
+Soon after, the samples returned to Earth, along with Whitson, aboard the Soyuz spacecraft. Biochemical and sequencing tests were completed in ground labs to confirm the findings from the space station. They ran tests multiple times to confirm accuracy. Each time, the results were exactly the same on the ground as in orbit.
+
+The Genes in Space-3 team worked throughout Hurricane Harvey to ensure operations continued on the space station. Pictured are Aaron Burton, Kristen John, Sarah Stahl and Sarah Wallace as they watch NASA astronaut Peggy Whitson work within the Microgravity Science Glovebox (MSG) during part one of the investigation. Credit: Sarah Wallace
+
+""We did it. Everything worked perfectly,"" said Sarah Stahl, microbiologist.
+
+Developed in partnership by NASA's Johnson Space Center and Boeing, this National Lab sponsored investigation is managed by the Center for the Advancement of Science in Space.
+
+Genes in Space-1 marked the first time the PCR was used in space to amplify DNA with the miniPCR thermal cycler, followed shortly after by Biomolecule Sequencer, which used the MinION device to sequence DNA. Genes in Space-3 married these two investigations to create a full microbial identification process in microgravity.
+
+""It was a natural collaboration to put these two pieces of technology together because individually, they're both great, but together they enable extremely powerful molecular biology applications,"" said Wallace.
+
+Explore further Sequencing the station: Investigation aims to identify unknown microbes in space
+
+More information: Sarah L. Castro-Wallace et al. Nanopore DNA Sequencing and Genome Assembly on the International Space Station, Scientific Reports (2017). Journal information: Scientific Reports Sarah L. Castro-Wallace et al. Nanopore DNA Sequencing and Genome Assembly on the International Space Station,(2017). DOI: 10.1038/s41598-017-18364-0","Scientists on the International Space Station (ISS) have successfully identified microbes in the first-ever sample-to-sequence process on board the ship. NASA astronaut Peggy Whitson worked with the Houston-based Genes in Space-3 team to collect microbial samples from around the ISS, before a MinION device was used to sequence the samples' DNA, enabling it to be identified. Back on Earth, the results were retested and proved to exactly match the ISS outcomes. Being able to identify microbes on the ISS would assist in diagnosing illnesses and infections among astronauts."
+"Halal and Kosher meat could be labelled by method of slaughter after Brexit amid concerns that animals are suffering needlessly before being killed.
+
+Tory MPs and leading vets have for years raised concerns that the failure to stun animals before killing them under some methods of slaughter is cruel.
+
+George Eustice, the farming minister, has now given a clear indication that the Government will consider introducing labelling after the UK leaves the European Union.
+
+It comes after Michael Gove, the Environment Secretary, vowed to ensure that animal welfare standards will be even higher after Britain leaves the EU.
+
+Mr Eustice said: that consumers should be able to make an ""informed choice"" about what they decide to buy.
+
+He said: “There is no national or EU requirement to display the method of slaughter on meat products but where this is included it must be accurate.
+
+“The Government believes that consumers should have the necessary information available to them to make an informed choice about their food, and this is something we can consider in the context of leaving the EU.”","The UK government could introduce food labels on halal and kosher meat indicating that the animal was not stunned before being slaughtered following its withdrawal from the European Union, according to farming minister George Eustice. Current EU legislation does not require such information on meat packaging, but Conservative MP Laurence Robertson said its introduction would allow consumers to make an informed choice, adding: ""Brexit… makes it easier for us to legislate without an eye looking over our shoulders"".
+"
+"
+
+Image by Kremlin.ru
+
+A spat of recent failures in Russia’s space industry has caused the Kremlin to consider an official probe of problems in the sector. Kremlin spokesman, Dmitry Peskov, said this week that authorities warrant a thorough analysis of the situation in the space industry, reported Associated Press.
+
+4GB – A Georgian Electronic Music Festival In Soviet Style: Watch
+
+“A Russian weather satellite and nearly 20 micro-satellites from other nations were lost following a failed launch from Russia’s new cosmodrome in the Far East on Nov. 28. And in another blow to the Russian space industry, communications with a Russian-built communications satellite for Angola, the African nation’s first space vehicle, were lost following its launch on Tuesday,” wrote AP.
+
+Russian Deputy Prime Minister Rogozin, who’s portfolio includes space operations, was critical of Russian space corporation, Roscosmos, declaring Roscosmos was “trying to prove that failures occur not because of mistakes in management but just due to some ‘circumstances.'”
+
+SpaceX Says It Will Take 65% Of Global Commercial Launch Market
+
+Tsarizm has previously reported that Russia has lost a large percentage of the commercial launch market in recent years due to the rise of SpaceX and other commercial operators in the West, and failures such as the Kremlin has seen recently which has damaged Russia’s once strong reputation in space.
+
+The new Russian launch pad at Vostochny has been marred with delays and accusations of corruption. Russian President Vladimir Putin himself publicly called for those in charge of the project to be punished. The work horse for Moscow’s space efforts previously has been the Russia-leased Baikonur launch pad in Kazakhstan, where heavier launches still take place until Vostochny can be finished in 2021.
+
+Russian Space Program Close To Collapse
+
+The loss of market share in the commercial launch space has put a critical source of revenue and foreign currency in crisis.","The Kremlin is considering an official inquiry into problems in Russia's space programme. A failed launch from the country's new facility in the Far East in November led to the loss of a Russian weather satellite and nearly 20 micro-satellites from other countries, while communication links with a Russian-built communications satellite launched on behalf of Angola have also been lost. Deputy Prime Minister Dmitry Rogozin, who has responsibility for the space industry, has been publicly critical of the country's space corporation, Roscosmos, and a Kremlin spokesman said the situation warrants a thorough analysis.
+"
+"Email to a friend Post navigation
+
+Agents are being offered a new property valuation tool that claims to be different to others by using artificial intelligence to pick up trends and make predictions for the future.
+
+Houseprice.ai has been testing an app called Horizon since August for agents, property developers and mortgage lenders that launched just before Christmas.
+
+The software is programmed to use pricing data going back 20 years and to learn local trends using official house price, bank lending and rental figures as well as other factors such as crime, energy performance and planning data to provide valuation reports and forecasts within minutes.
+
+In comparison, the Land Registry works out average values based on sale prices, while Zoopla’s online valuation tool uses factors such as property size and what neighbouring local properties have sold for. Rightmove provides market trend reports that show how much neighbouring property has sold for.
+
+For subscriptions starting at an average of £100 per month depending on usage, subscribers can either work with the Horizon app and use the reports it generates or they can incorporate all the data into their own valuation and customised reports.
+
+EYE queried whether these were all things an agent could already provide for free, but Houseprice.ai chief executive Eldred Buck said: “The main difference is that it is faster, has no subjective biases and takes in over 50 individual factors to arrive at the capital valuation and rental values.”
+
+Two of the directors of the company, Buck and co-founder Giovanni Miano, come from a banking and financial technology background, while chief creative officer Vivienne Brooks has had a career in graphic design and marketing. The company has also appointed general practice chartered surveyor Philip Challinor as non-executive chairman.","An app that uses artificial intelligence (AI) to identify property-market trends and predict future changes is being offered to agents by Houseprice.ai. The Horizon app uses pricing data from the past 20 years to teach itself local property trends and quickly provide valuation reports and forecasts. Houseprice.ai CEO Eldred Buck said the service's primary benefits for agents was that ""it has no subjective biases and takes in over 50 individual factors to arrive at the capital valuation and rental values"". The app is available to agents for a £100 ($136) monthly subscription."
+"A prevalent shrub that grows almost everywhere across Kenya could be the key to a sustainable source of biofuel, set to replace diesel and potentially feed Africa’s growing demand for cheap, low-carbon energy.
+
+Article continues below advertisement
+
+Called the croton tree, this plant is widely used for firewood and shade, but its less used component—its oilseed nuts—are a powerful source for biofuels. And while the croton industry is still fledgling, this macadamia-sized nut could help Africa meet its sustainable development goals of clean energy, climate action and poverty reduction.
+
+As of now, Kenya imports all of its oil. In rural communities, diesel use is widespread for everything from trucks to water pumps, but is barely affordable for the poverty-stricken farmers that rely on it. Meanwhile, in urban areas, car exhaust is causing dangerous levels of air pollution. Croton oil, on the other hand, generates 78 percent less carbon dioxide emissions than diesel.
+
+Article continues below advertisement
+
+While a biofuel replacement sounds good, this isn't the first time Kenya has promised such a massive overhaul of the fossil fuel system. In 2000, a plant native to Central America, jatropha, was introduced to the Kenyan landscape and billed as the saving biofuel crop. The government then took land away from farmers to grow thousands of acres of monoculture jatropha. In the end, yields of the plant were “dismal” and because 90% of the jatropha crops were established on former agricultural land, companies kept their land titles, leaving hundreds of farmers with no jobs and no land.
+
+Article continues below advertisement
+
+This time around, however, the government and companies pushing the croton tree are doing it differently, building sustainable business practices into the movement.
+
+For one, the industry could also improve rural livelihoods; through the production of oil for energy and other products (such as animal feed and fertilizer), croton harvesting is an opportunity for many poor farmers to rise out of poverty. The trees don’t require an investment in water or fertilizer, and the harvest can last up to six months, which means it's a steady source of income. Additionally, sellers get paid upon delivery, unlike coffee famers in the region who have to wait months for a payout.
+
+Article continues below advertisement
+
+Additionally, the croton industry could help with food security: While many biofuel crops take edible ingredients out of the market, the croton nut is inedible, meaning it does not displace food for consumption. Additionally, because croton trees already grow all over the region, there's no need to create massive monocultures like the jatropha days, which potentially displace other food crops.
+
+“Instead of going the way of monoculture, we have decided to collaborate with small-scale holders and minimise the risk for everyone involved,” said Myles Katz, the managing director of Eco Fuels Kenya, a startup pioneering the use of croton nuts for biofuel.
+
+
+
+Article continues below advertisement
+
+Eco Fuels Kenya currently buys nuts from 5,000 farmers across Kenya, and more are expressing interest. Michael Jacobson, professor of forest resources in the Penn State College of Agricultural Sciences, recently conducted a survey with Kenyan farmers to gauge interest in joining the movement. Most were ready to jump in.
+
+“Many small farmers, although land constrained, have access to land to plant groves of croton trees if they become sold on the idea,” he said. “If they knew that there was going to be a dedicated market for croton, they would certainly add trees to their farm household lands.”","The oilseed nuts of the croton tree, a prevalent shrub in Kenya, could hold the key to cheap development of biofuels in the country. Croton oil was found to generate 78% less CO2 emissions than diesel, which is in widespread use in rural areas of the country. At present, Eco Fuels Kenya buys the nuts from 5,000 farmers across the African nation, and is looking to garner support for the alternative fuel."
+"Twenty-nine percent of U.S. businesses suffered a data breach in the past year, according to a recent HSB survey of 403 senior executives in the U.S., conducted by Zogby Analytics.
+
+Two thirds of respondents whose businesses were breached said their company’s reputation was negatively affected by the incident. Twenty-seven percent of respondents spent between $5,000 and $50,000 to respond to a breach, and 30 percent spent between $50,000 and $100,000.
+
+Forty-seven percent of the breaches were caused by a third-party vendor or contractor, followed by employee negligence (21 percent) and lost or stolen mobile devices or storage media (20 percent). Just 11 percent were caused by hacking.
+
+When asked to identify the biggest hurdle their organization faces in responding to a breach, 51 percent cited a lack of knowledge, while 41 percent said it comes down to a lack of resources.
+
+“The results highlight how closely our economy and society are interconnected digitally,” HSB vice president Timothy Zellman said in a statement. “Almost all of our personal and business data can be accessible on the Internet through online business connections, websites and social media. And that exposes our private information to attacks from hackers and cyber thieves.”
+
+Monitoring Privileged Users
+
+A separate Balabit survey of 222 IT executives and IT security professionals found that 35 percent of respondents see themselves as the biggest internal security risk to networks within their organizations. While HR and finance staff may be easier targets for social engineering, IT staff have higher access rights than other users, including access to business-critical data.
+
+When asked to identify the most important user data for spotting malicious activity, 47 percent of respondents listed the time and location of login, followed by private activities using corporate devices (41 percent), and biometrics identification characteristics such as keystroke analytics (31 percent).
+
+Within the realm of privileged users, respondents said sysadmins present the biggest threat (42 percent), followed by C-level executives (16 percent).
+
+When asked what data is most valuable to hackers, 56 percent of respondents cited personal employee data, followed by customer data (50 percent) and investor and financial information (46 percent).
+
+“As attacks become more sophisticated, targeted attacks and APTs more commonly involve privileged users inside organizations — often via hacks involving stolen credentials,” Balabit security evangelist Csaba Krasznay said in a statement. “Today, IT security professionals’ tough job has become even tougher. It is not enough to keep the bad guys out; security teams must continuously monitor what their own users are doing with their access rights.”","Hackers penetrated the data of 29% of US firms last year, with two-thirds of them suffering damage to their reputations as a result, according to a study by Zogby Analytics. It surveyed more than 400 senior US executives, 47% of whom said incidents were caused by external vendors or contractors. More than half said a lack of knowledge was the biggest obstacle to responding to a breach. A separate survey of IT executives by Balabit revealed 56% of 222 respondents believed employee personal data was most valuable to cyber criminals.
+"
+"Regus’ second Redhill centre opens for business.
+
+Global workspace provider Regus has opened the doors to its second Redhill business centre in response to the increased demand for workspace on flexible terms from local professionals.
+
+The centre occupies the fifth, sixth and seventh floors of Kingsgate House, located at the southern end of Redhill High Street. It houses over 180 workstations and offers a range of flexible working options including co-working space, offices of varying sizes and layouts, Virtual Office services, meeting rooms and hot desks.
+
+Regus Redhill’s central location places it close to various local amenities and transport links. It is situated just five minutes’ walk from Redhill Station, which has direct rail links to London, Croydon, Guildford and Reading. The centre can also be accessed internationally via Gatwick Airport which is just a 20 minute drive away.
+
+Richard Morris, UK CEO, Regus, said: “Redhill is already a popular location with insurers, banks, oil companies and publishers. Combined with its excellent transport links, this makes the town a great location for Regus. We expect the new centre to be popular with a wide range of users including those based in Redhill and those visiting for business”
+
+Please enable JavaScript to view the comments.","Flexible office space provider Regus has opened its second centre in Redhill, Surrey. The company has leased the fifth, sixth and seventh floors of Kingsgate House, offering co-working space, meeting rooms, virtual office services and more than 180 workstations and hot desks. UK CEO Richard Morris said Rehill was a popular location for insurers, banks, oil companies and publishers.
+"
+"Real estate deals on a blockchain are becoming real.
+
+The startup Propy recently sold an apartment in the Ukraine through its blockchain, and in the last week of December it began letting Californians buy and sell properties on its blockchain using bitcoin. They will be able to use U.S. dollars next year. It’s also offering other homes including a “Packer House”— a house located next to the Green Bay Packers’ stadium and training field that is draped in team paraphernalia and is available for $1 million.
+
+Other startups, including ShelterZoom and RealBlocks, are offering other takes on the idea of buying and selling real estate on a distributed ledger. ShelterZoom has built an Ethereum-based platform that went live Dec. 14. RealBlocks lets people invest in housing on its blockchain with fiat or digital currency (and starting in February 2018, its own tokens). It has completed seven deals so far.
+
+Distributed-ledger technology — a database that can live in many places at once, where transactions and smart contracts can be executed, theoretically without any need for middlemen — could simplify real estate investment, turning a complicated process into a series of clicks.
+
+At some point in the near future, not only real estate transactions but mortgages themselves may be handled on a blockchain.
+
+Banks will have to adapt.
+
+“I don’t know if this is removing banks from the process — I think it will make them more efficient,” said Eric Piscini, principal, banking and technology consulting at Deloitte. “Maybe they’ll be leaner because they won’t need to have as many people as they used to, to manage those processes.”
+
+What blockchains can do
+
+Theoretically, almost every element of a real estate transaction could be handled on a blockchain.
+
+“When you want to buy a piece of real estate, whether it’s commercial or retail, wherever the current process is very inefficient, which is most places, a blockchain platform can make it better, faster and cheaper,” Piscini said.
+
+Propy, which is based in Menlo Park, Calif., calls itself the Amazon of real estate. Its site lets users search for properties and brokers the way Realtor.com and Trulia do.
+
+It records deals on its blockchain registry, which it hopes will be adopted by many jurisdictions as an official ledger and as a way to issue title deeds online.
+
+Herein is a big promise of blockchain: that it could replace today’s clunky title deed and registry processes, which involve going to a local town hall and getting a clerk to find the right documents.
+
+Yet it will be a challenge to get thousands of local governments, as well as homeowners and real estate investors, to accept a number on a blockchain as the official deed to a property.
+
+RealBlocks lets people invest in rental properties like Section 8 housing over a blockchain.
+
+“Rather than having to set up LLCs and deal with the tax, legal and accounting complexities associated with purchasing real estate, we’re making the process seamless by doing it on the blockchain using tokens,” said Perrin Quarshie, RealBlocks' CEO.
+
+The company can help users find a mortgage through its mortgage brokerage partner First National Financing. It has also partnered with SALT Lending so that after February, participants will be able to take out a loan or line of credit using the tokens they buy from RealBlocks as collateral.
+
+A blockchain combined with smart devices could let real estate investors track the condition of their investments and know, for instance, that equipment is being repaired and replaced on a schedule.
+
+“Almost in real time, you can know if that piece of real estate you invested in is in good condition or not,” Piscini said. “You don’t have to trust a third party for that; you can trust the blockchain.”
+
+A blockchain can also let people who are nonresidents buy real estate in the U.S., which today is difficult.
+
+And it could let more people participate.
+
+“If someone who is managing a property can also be an investor in the property with that mechanism, then they would manage the property better,” Piscini said. “The renter or leaser might be more incentivized to do a good job maintaining the property if they’re also an investor.”
+
+Legal, regulatory, public-sentiment hurdles
+
+For real estate blockchains to work, several things need to happen: Governments, homeowners and investors would have to recognize and accept a blockchain registry. Small town halls would need to become blockchain-ready. Courts would have to accept smart contracts the way they accept paper-based contracts today.
+
+“Blockchain is a very natural database technology to keep records like titles and to make them widely accessible,” said Dror Futter, partner at Rimon Law and a member of its blockchain practice. “The issue is, you need to have the real estate blockchain recognized as a title registry. You can’t have a situation where you have multiple registries.”
+
+Consumers would have to be willing to accept a smart contract as their only way to engage with real estate participants.
+
+“If something goes wrong, who’s picking up the phone?” Piscini said. “If there is a major event, an earthquake, how do you manage the smart contract? At the end of the day, are we willing to trust this? That’s going to be the biggest challenge.”
+
+The tokens many blockchain startups plan to issue to represent real estate assets raise regulatory questions.
+
+“Will those tokens be considered another risk or another type of equity or will they be considered just an investment in real estate?” Piscini said. “I think the jury is out on that.”
+
+In Piscini’s view, the only way to get the entire real estate finance system to accept transactions on a blockchain would be for regulators to mandate its use.
+
+Regulators might do this for three reasons: to make the real estate market more open; to exert control over the real estate market (for instance, to limit a North Korean investor’s U.S. purchases); and to obtain a macroeconomic, real-time view of the real estate market, so they can react immediately.
+
+All of this will take time.
+
+“Blockchain is the internet circa 1993,” Futter said. “The technology is still immature, it’s not user-friendly, there are still issues being identified, and hacks are occurring. It’s a little overhyped in terms of what it can deliver today. But it can do most of these things on a limited basis today.”
+
+Mortgages on a blockchain
+
+Eventually, it is likely that mortgages will be handled as self-executable smart contracts on a blockchain, rather than as paper documents.
+
+“Could you do a mortgage completely by way of smart contract? Yes,” Futter said. “The technology is there today to form a mortgage between two parties. The question will be, from a legal perspective, will it be deemed an enforceable agreement? That’s more a question of evidence than anything else.”
+
+States like California are starting to accept smart contracts as legal evidence, so long term this will not be an obstacle.
+
+Futter believes smart contracts themselves won’t contain every term of a mortgage agreement. They might contain key terms like interest rate, loan amount and duration. But an underlying master agreement would cover all the terms and conditions typical of a mortgage.
+
+A blockchain could also facilitate crowdsourced mortgages. Instead of taking out a $200,000 loan from one lender, a borrower could get $2,000 each from 100 investors.
+
+What banks should do now
+
+Blockchain technology will take over the recording and transaction activities banks do today, Piscini said. Therefore, they need to focus on value-added services.
+
+“Now it’s not just lending money, it’s managing property and helping people do a lot of things outside of just getting money to buy real estate,” Piscini said. “So the banks have to reinvent themselves and find new services and solutions.”
+
+Futter suggests that at a minimum, banks should have people following these developments. They could be experimenting with creating records, tracking documentation and verifying transactions on a blockchain.
+
+“The financial crisis showed this recordkeeping aspect is not the biggest strength of a lot of banks,” Futter said. “The blockchain creates a reliable storage mechanism that’s accessible depending on whether you do a public chain or private chain. You can store all the documentation around the mortgage transaction, including the financing, on a blockchain. You could do the mortgage processing automatically going forward, payments could be made and foreclosure would occur automatically —those kinds of things are all doable on the blockchain.”
+
+This is all true for auto lending as well, he noted. It is also true for other types of loans, debt collection and many other related services.
+
+Editor at Large Penny Crosman welcomes feedback at penny.crosman@sourcemedia.com.","Blockchain technology could help US real estate firms offer customers near-instant financing and mortgage deals, all but edging banks out of the process. Deloitte's Eric Piscini said blockchains have the potential to revolutionise land registry and make the mortgage-buying process almost seamless. Banks could retain a role by offering value-added products and services. However, Piscini said the technology was still in its infancy and getting local governments, the courts and homeowners to accept it would take time."
+"General Motors sells 70% more cars in China than in the US.
+
+China's auto market growth has outpaced the US in the last decade, but is slowing.
+
+
+
+In China, General Motors is hot. In November, its 10 joint ventures and two wholly-owned foreign enterprises sold 418,225 new vehicles in China, up 13% from a year ago. It was the best November ever, GM said. SUV sales soared 73%.
+
+By comparison, in the US, GM sold 245,387 new vehicles in November, it reported a few days ago, down nearly 3% from a year ago. In other words, in November, GM sold 70% more vehicles in China than in the US.
+
+China became the world’s largest new vehicle market for the first time in 2009, when sales in the US plunged. For years, growth rates in the Chinese market blew the doors off the US market. But the hectic pace has recently subsided. For 2017, deliveries are expected to rise only 2%, and competition from local automakers is getting tougher.
+
+Buick is still hot in China – though it’s just about moribund in the US, where deliveries fell 3.5% year-over-year in November to just 16,833 vehicles, accounting for only 7% of GM’s total sales in the US. Of them, 2,228 were the China-made compact SUVs, the Buick Envision.
+
+In China, Buick is still the fourth largest auto brand with a market share of just under 5% so far this year, behind Volkswagen, Honda, and Toyota. In November, GM sold 112,738 Buicks, or 27% of its total sales. But for the month, Buick was already outsold by GM’s Baojun.
+
+Baojun is the hottest brand GM has in China. Sales of the bargain-priced vehicles soared 52% in November to 113,711 units, accounting for over a quarter of GM’s total sales in China.
+
+GM launched Baojun in 2010, after the “New GM” had emerged from Chapter 11 bankruptcy in the US in July 2009, with Debtor in Possession (DIP) financing and equity investments from the US taxpayer. This support helped GM go on an investment spree in China, and, along with its joint-venture partner SAIC, plow $2.4 billion in the Baojun factory in Liuzhou, even as many former GM plants in the US had been shuttered and were disposed of in bankruptcy.
+
+But GM owns only 44% of Baojun. With technology transfer to SAIC being a big part of the deal, this is a risky proposition. The Wall Street Journal:
+
+Other foreign auto makers “are consistently taken aback by GM’s apparently generous technology sharing” when it comes to Baojun, said Michael Dunne, a former GM executive and now president of Dunne Automotive, a consultancy. “The open approach has engendered considerable goodwill but it also leaves GM vulnerable to the whims of its powerful Chinese partner.”
+
+GM was less proud of its brand Wuling. It sold 113,919 units. GM does not brag about the year-over-year change in deliveries, as it does with Baojun. In fact, in the press release, there is no mention of this year-over-year change. Turns out, a year ago, GM had reported 121,566 sales in November. In other words, Wuling sales dropped 6.3% year-over-year.
+
+Nevertheless GM gushed, while purposefully leaving out Wuling: “GM’s performance was strong across its brands. Baojun deliveries reached an all-time monthly high, while Buick, Cadillac and Chevrolet set November sales records.”
+
+China-sold Buicks, Cadillacs, and Chevrolets are built by a 50-50 GM-SAIC joint venture. These vehicles tend to be more upscale than GM’s Chinese brands.
+
+For the first 11 months this year, GM sold 32% more vehicles in China than in the US, with 3,549,087 units in China, up 3.3% year-over-year, versus 2,691,493 units in the US, down 1.2%, according to Autodata. 2017 will be the sixth year in a row when GM’s vehicle sales in China exceeded those in the US.
+
+But it’s complicated. These are joint ventures, margins in China are thin, and in terms of profits, GM’s China operations don’t contribute all that much. For the year 2016, GM booked global profits of $9.4 billion, of which GM attributed only $2 billion to “equity income” at its joint ventures in China despite all the massive in vestments in China. Most of the remainder of its global profits came from its sales in the US, and mostly from the fat profit margins on pickups and SUVs.
+
+Then there’s Tesla, with a market capitalization not much behind GM’s despite minuscule vehicle sales. This is where hype goes to die.","Surging sales of General Motors cars in China meant the company sold 70% more vehicles there than in the US in November. China sales rose 13.1% last month, YoY, to 491,702 vehicles, having jumped 13% in November. US sales fell 3.3% to 245,387 last month after a 3% decline in November. The most popular GM brand in China is the Baojun, sales of which rocketed 52% in November to 113,711. However, GM only owns 44% of Baojun, with China's SAIC holding a large part of the deal. The Wall Street Journal warns that this ""leaves GM vulnerable to the whims of its powerful Chinese partner"".
+"
+"A former advertising executive who spent two decades working with “big food” corporations has revealed how they are still working to persuade us to eat more sugar and junk food in spite of the obesity epidemic.
+
+Dan Parker, who was a successful advertising executive earning his living promoting Coca Cola and McDonalds, told the Guardian in his first interview that the food industry is behaving like Big Tobacco. “I think what the food industry does now will define where it lands. If it behaves like tobacco it will end up being treated like tobacco. And I think it is behaving like tobacco,” said the former industry insider.
+
+Parker’s life changed when he was diagnosed with obesity-related type 2 diabetes, the disease that killed his father. In a “lightbulb moment”, he realised he could help save people’s lives by using his skills to try to help curb the junk food we eat.
+
+Parker founded a charity called Living Loud, bringing on board others from marketing and advertising. In their first year of existence, they have helped anti-obesity campaigners like the Jamie Oliver Food Foundation understand the industry and communicate their messages.
+
+
+
+Q&A Share your tips on managing snacks for children Show We’d like to hear how you are trying to limit the amount of snacks and sugary foods your children eat.
+
+You can share your story using our encrypted form here. We will feature some of your contributions in our reporting. Was this helpful? Thank you for your feedback.
+
+Asking the industry, supermarkets and advertising agencies to voluntarily dial down what they do will not work, he says. They need limits imposed by government so that everyone is on a level playing field. Parker cites the shrinking size of chocolate bars to illustrate how voluntarism is not working. Manufacturers have produced smaller portion sizes, but they have not cut the prices.
+
+“This has made people angry. People are howling with rage about the fact that their single chocolate bar is smaller but the same price,” he told the Guardian. And their response is to buy the bigger bar which looks like better value for money – while the industry is now advertising the family size as something one person can eat by themselves.
+
+“What you’re seeing is a lot of advertising for the bigger bar. You are seeing a lot of promotion of the bigger bar at point of purchase,” he said. “In WH Smiths you get thrust a £1 chocolate bar if you go in there for anything.”
+
+Figures published in The Grocer magazine showed that single chocolate bar sales were down year on year in 2016 by about 5% to around £130m whereas sales of the tablet bars of around 100g were up 7.6% to £420m and the share bags were up 2.7% to about £300m. “What’s happening is this massive migration from the single bar to the bigger bar,” said Parker.
+
+The chocolate companies are promoting this choice with adverts like the Audrey Hepburn Galaxy video, showing a digitally recreated Hepburn figure deciding to sit in the back seat of the car of a handsome admirer so she can eat a large bar of chocolate by herself, says Parker.
+
+Sales of single chocolate bar are down – but that has been countered by a rise in sales for larger bars. Photograph: Lefteris Pitarakis/AP
+
+“What that’s doing is normalising the idea that 100g bar is an individual portion of chocolate – although it will say on it you shouldn’t eat more than 30g in tiny little writing on the bottom, the advert says that for Audrey it’s a single portion,” he said. The same is true of an advert showing Gary Lineker in hospital with a large bag of crisps, which he refuses to share with his children.
+
+“Both those adverts are formalising a larger portion size. I don’t think that’s very healthy,” he said.
+
+Parker was diagnosed with type 2 diabetes four years ago, a result of obesity and long working hours spent at a desk. “I closed down my business and I decided that I would try and do something about it. I felt a need to redeem myself in some ways but also I guess I felt an immense sadness that the suffering that’s happened in my own family probably should have been avoided,” he said.
+
+He reversed his diabetes through a strict diet with the help of Dr David Cavan, with whom he now has a commercial venture, offering a programme called “Diabetes Turnaround”.
+
+He was on Brighton beach when he realised he could be part of the solution. “ If you want to boil obesity down, the single most important issue is what we put in our mouth. And nobody knows more about why people put in their mouth what they put in their mouth than the people who sit around the table at Coca Cola and McDonalds and Asda and these companies. I sat round that table. I got paid a lot of money because I was pretty good at this. So I suddenly realised that not only did I have this huge great desire to do something but I kind of went – you know what – I think I might be part of the answer here.”
+
+The food industry, Parker says, is at a crossroads. “If [the food industry] continues to sit there saying we’re great, there’s no problem, it’s all to do with everything else, eventually suddenly there will be a switch in public will and then there will be an awful lot of bad regulation happening,” he said.
+
+“What’s clearly happening at the moment is the food industry’s working hard to drag its heels,” he said. It funds research showing obesity is about lack of exercise or other factors. “It’s all about deflecting it away from being about what we eat.
+
+“The very inconvenient truth that nobody wants to talk about is that to resolve the obesity crisis, we need to eat less food. And we need to particularly eat less unhealthy food which generally comes in a packet and has a logo on it and is generally owned by a very large multinational corporation.”
+
+As a nation, we probably need to reduce the total amount of food we consume by 10-20% and we need to reduce the amount of unhealthy food we eat by 20-30%, he believes.
+
+“There are an awful lot of people not very interested in seeing the size of the packaged food industry drop by those kind of figures. The amount of money involved is billions of pounds.” That includes the food industry, the supermarkets, the exchequer and also the media. “Parts are almost entirely propped up by advertising for those unhealthy products. Early Saturday night TV, for example, would struggle without pizzas and fishfingers.”
+
+He thinks his charity can help bridge the gap between the academics and institutions who know about obesity but argue over nutrients and technicalities on the one hand, and the large numbers of people suffering poor health on the other, who are told by the NHS they are in trouble and are in despair – which is the space, he says, between fear and knowledge.
+
+They are not communicating, Parker says, and the messages are uninspiring. He thinks he and his colleagues can change that. “We’ve taken pension plans and credit cards and cars and all sorts of complicated and dull and boring things and we turn them into simple and persuasive messages. That’s what we do.”","A former advertising executive who promoted Coca-Cola and McDonald's has claimed that ""big food"" is copying the tactics of large tobacco companies. In an interview with the Guardian, Dan Parker, the founder of the Living Loud charity, which supports anti-obesity campaigns including those by the Jamie Oliver Food Foundation, said that voluntary codes would not succeed and that government regulation is required. Parker cited the example of companies reducing the size of chocolate bars without lowering the price. Such moves led to a 7.6% increase in sales of larger 100g bars and a 5% decrease in single bars in 2016.
+"
+"Partner Content
+
+Over the past year, the world has changed in many ways – from the need to work remotely to employees asking for more from their employers. Many have asked: is the traditional office dead? Thankfully, our physical office is here to stay. But how will it evolve moving forward?...","2018 will be the breakout year for technology such as artificial intelligence and blockchain in the commercial and corporate real estate (CRE) industry, according to Realcomm CEO Jim Young. Technological trends including robotic automation and augmented reality will continue to become more widely accepted and integrated into the daily routines of CRE organisations throughout 2018, he predicted. Finding ways to adopt emerging technological capabilities into existing business models will be the ""secret to success"" for the industry, Young added."
