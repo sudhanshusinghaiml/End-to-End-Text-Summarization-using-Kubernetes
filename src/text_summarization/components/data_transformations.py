@@ -6,9 +6,9 @@ from src.text_summarization.entity import DataTransformationConfig
 
 
 class DataTransformation:
-    def __init__(self, data_transformation_config: DataTransformationConfig):
-        self.config = data_transformation_config
-        self.tokenizer = AutoTokenizer.from_pretrained(data_transformation_config.tokenizer_name)
+    def __init__(self, config: DataTransformationConfig):
+        self.config = config
+        self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
 
     
     def convert_examples_to_features(self, example_batch):

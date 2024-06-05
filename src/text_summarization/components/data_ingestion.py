@@ -8,8 +8,8 @@ from pathlib import Path
 
 
 class DataIngestion:
-    def __init__(self, data_ingestion_config: DataIngestionConfig):
-        self.config = data_ingestion_config
+    def __init__(self, config: DataIngestionConfig):
+        self.config = config
 
 
     def download_file(self):

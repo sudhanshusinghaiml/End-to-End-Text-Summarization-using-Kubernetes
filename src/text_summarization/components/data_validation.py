@@ -5,8 +5,8 @@ from src.text_summarization.constants import DataIngestionConstants
 
 
 class DataValiadtion:
-    def __init__(self, data_validation_config: DataValidationConfig):
-        self.config = data_validation_config
+    def __init__(self, config: DataValidationConfig):
+        self.config = config
 
     
     def validate_all_files_exist(self)-> bool:

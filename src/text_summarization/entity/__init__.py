@@ -28,7 +28,7 @@ class DataTransformationConfig:
 
 
 @dataclass(frozen=True)
-class ModelTrainerConfig:
+class ModelTrainingConfig:
     root_dir: Path
     data_path: Path
     model_ckpt: Path
