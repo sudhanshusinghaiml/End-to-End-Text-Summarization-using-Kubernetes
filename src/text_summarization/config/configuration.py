@@ -13,7 +13,7 @@ from src.text_summarization.utils.common_utils import read_yaml, create_director
 from src.text_summarization.entity import (DataIngestionConfig, 
                                            DataValidationConfig, 
                                            DataTransformationConfig, 
-                                           ModelTrainerConfig,
+                                           ModelTrainingConfig,
                                            ModelEvaluationConfig
                                           )
 
@@ -28,7 +28,7 @@ class ConfigurationManager:
         self.model_evaluation_const = ModelEvaluationConstants()
         
 
-    def get_data_ingestion_const(self) -> DataIngestionConfig:
+    def get_data_ingestion_config(self) -> DataIngestionConfig:
 
         create_directories([self.data_ingestion_const.root_dir])
 
@@ -69,13 +69,13 @@ class ConfigurationManager:
     
 
 
-    def get_model_trainer_config(self) -> ModelTrainerConfig:
+    def get_model_training_config(self) -> ModelTrainingConfig:
 
         config = ModelTrainingConstants()
         params = TrainingArguments()
         create_directories([config.root_dir])
 
-        model_trainer_config = ModelTrainerConfig(
+        model_trainer_config = ModelTrainingConfig(
             root_dir=config.MODEL_TRAINING_ROOT_DIR,
             data_path=config.MODEL_TRAINING_DATA_PATH,
             model_ckpt = config.MODEL_CKPT,
