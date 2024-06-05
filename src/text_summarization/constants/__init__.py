@@ -27,7 +27,7 @@ class TrainingArguments:
 class DataIngestionConstants:
   DATA_INGESTION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT,"DataIngestionArtifacts")
   DATA_FILE_NAME: str = "data.zip"
-  DATA_DOWNLOAD_URL: str = "https://text-summer-bucket.s3.amazonaws.com/summarizer-data.zip"
+  DATA_URL: str = "https://text-summer-bucket.s3.amazonaws.com/summarizer-data.zip"
   DOWNLOADED_DATA_FILE: str = os.path.join(DATA_INGESTION_ROOT_DIR, DATA_FILE_NAME)
   UNZIPPED_DIR: str =  DATA_INGESTION_ROOT_DIR
 
@@ -37,7 +37,7 @@ class DataValidationConstants:
   DATA_VALIDATION_STATUS_FILE = "status.txt"
   ALL_REQUIRED_FILES: List[str] = ["train", "test", "validation"]
   DATA_VALIDATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT,"DataValidationArtifacts")
-  DATA_VALID_STATUS_FILE: str = os.path.join(DATA_VALIDATION_ROOT_DIR, DATA_VALIDATION_STATUS_FILE)
+  DATA_VALIDATION_STATUS_FILE: str = os.path.join(DATA_VALIDATION_ROOT_DIR, DATA_VALIDATION_STATUS_FILE)
 
 
 @dataclass
@@ -61,5 +61,5 @@ class ModelEvaluationConstants:
   DATA_PATH: str =  ModelTrainingConstants.MODEL_TRAINING_DATA_PATH
   SAVED_MODEL_PATH: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "TrainedModel" )
   TOKENIZER_PATH: str =  os.path.join(MODEL_EVALUATION_ROOT_DIR, "Tokenizer" )
-  metric_file_name: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "metrics.csv")
+  METRIC_FILE_NAME: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "metrics.csv")
 

@@ -2,73 +2,83 @@
 This module basically manages the configurations for each stage fo the pipeline
 """
 
-from src.text_summarization.constants import TrainingArguments
+from src.text_summarization.constants import ( TrainingArguments, 
+                                              DataIngestionConstants,
+                                              DataTransformationConstants,
+                                              DataValidationConstants,
+                                              ModelTrainingConstants,
+                                              ModelEvaluationConstants)
+
 from src.text_summarization.utils.common_utils import read_yaml, create_directories
-from src.text_summarization.entity.config import (DataIngestionConfig, 
-                                                  DataValidationConfig, 
-                                                  DataTransformationConfig, 
-                                                  ModelTrainerConfig, 
-                                                  ModelEvaluationConfig
-                                                  )
+from src.text_summarization.entity import (DataIngestionConfig, 
+                                           DataValidationConfig, 
+                                           DataTransformationConfig, 
+                                           ModelTrainerConfig,
+                                           ModelEvaluationConfig
+                                          )
 
 
 class ConfigurationManager:
     """This class binds the methods for all the configuration files"""
     def __init__(self):
-        pass
+        self.data_ingestion_const = DataIngestionConstants()
+        self.data_validation_const = DataValidationConstants()
+        self.data_transformation_const = DataTransformationConstants()
+        self.model_training_const = ModelTrainingConstants()
+        self.model_evaluation_const = ModelEvaluationConstants()
+        
 
+    def get_data_ingestion_const(self) -> DataIngestionConfig:
 
-    def get_data_ingestion_config(self, config: DataIngestionConfig) -> DataIngestionConfig:
-
-        create_directories([config.root_dir])
+        create_directories([self.data_ingestion_const.root_dir])
 
         data_ingestion_config = DataIngestionConfig(
-            root_dir=config.root_dir,
-            source_URL=config.source_URL,
-            local_data_file=config.local_data_file,
-            unzip_dir=config.unzip_dir 
+            root_dir = self.data_ingestion_const.DATA_INGESTION_ROOT_DIR,
+            data_url = self.data_ingestion_const.DATA_URL,
+            downloaded_data_file = self.data_ingestion_const.DOWNLOADED_DATA_FILE,
+            unzipped_dir = self.data_ingestion_const.UNZIPPED_DIR 
         )
 
         return data_ingestion_config
     
+  
+    def get_data_validation_config(self) -> DataValidationConfig:
 
-    
-    def get_data_validation_config(self, config: DataValidationConfig) -> DataValidationConfig:
-
-        create_directories([config.root_dir])
+        create_directories([self.data_validation_const.DATA_VALIDATION_ROOT_DIR])
 
         data_validation_config = DataValidationConfig(
-            root_dir=config.root_dir,
-            STATUS_FILE=config.STATUS_FILE,
-            ALL_REQUIRED_FILES=config.ALL_REQUIRED_FILES,
+            root_dir = self.data_validation_const.DATA_VALIDATION_ROOT_DIR,
+            status_file = self.data_validation_const.DATA_VALIDATION_STATUS_FILE,
+            all_required_files = self.data_validation_const.ALL_REQUIRED_FILES,
         )
 
         return data_validation_config
     
 
+    def get_data_transformation_config(self) -> DataTransformationConfig:
 
-    def get_data_transformation_config(self, config: DataTransformationConfig) -> DataTransformationConfig:
-
-        create_directories([config.root_dir])
+        create_directories([self.data_transformation_const.DATA_TRANSFORMATION_ROOT_DIR])
 
         data_transformation_config = DataTransformationConfig(
-            root_dir=config.root_dir,
-            data_path=config.data_path,
-            tokenizer_name = config.tokenizer_name
+            root_dir = self.data_transformation_const.DATA_TRANSFORMATION_ROOT_DIR,
+            data_path=self.data_transformation_const.TRANSFORMED_DATA_PATH,
+            tokenizer_name = self.data_transformation_const.TOKENIZER_NAME
         )
 
         return data_transformation_config
     
 
 
-    def get_model_trainer_config(self, config: ModelTrainerConfig, params: TrainingArguments) -> ModelTrainerConfig:
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
 
+        config = ModelTrainingConstants()
+        params = TrainingArguments()
         create_directories([config.root_dir])
 
         model_trainer_config = ModelTrainerConfig(
-            root_dir=config.root_dir,
-            data_path=config.data_path,
-            model_ckpt = config.model_ckpt,
+            root_dir=config.MODEL_TRAINING_ROOT_DIR,
+            data_path=config.MODEL_TRAINING_DATA_PATH,
+            model_ckpt = config.MODEL_CKPT,
             num_train_epochs = params.NUM_TRAIN_EPOCHS,
             warmup_steps = params.WARMUP_STEPS,
             per_device_train_batch_size = params.PER_DEVICE_TRAIN_BATCH_SIZE,
@@ -84,16 +94,18 @@ class ConfigurationManager:
     
 
 
-    def get_model_evaluation_config(self, config: ModelEvaluationConfig) -> ModelEvaluationConfig:
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
 
-        create_directories([config.root_dir])
+        config = ModelEvaluationConstants()
+        
+        create_directories([config.MODEL_EVALUATION_ROOT_DIR])
 
         model_evaluation_config = ModelEvaluationConfig(
-            root_dir=config.root_dir,
-            data_path=config.data_path,
-            model_path = config.model_path,
-            tokenizer_path = config.tokenizer_path,
-            metric_file_name = config.metric_file_name
+            root_dir=config.MODEL_EVALUATION_ROOT_DIR,
+            data_path=config.DATA_PATH,
+            model_path = config.SAVED_MODEL_PATH,
+            tokenizer_path = config.TOKENIZER_PATH,
+            metric_file_name = config.METRIC_FILE_NAME
            
         )
 
