@@ -15,7 +15,7 @@ def error_message_detail(error, error_detail: types.ModuleType):
     return error_message
 
 
-class ODISCException(Exception):
+class TextSummarizerException(Exception):
     """This class encapsulated the method that returns error message"""
 
     def __init__(self, error_message, error_detail):

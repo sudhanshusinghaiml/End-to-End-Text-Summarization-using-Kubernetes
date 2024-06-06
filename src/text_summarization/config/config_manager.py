@@ -29,6 +29,7 @@ class ConfigurationManager:
         
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
+        """This method assigns the constants for Data Ingestion config"""
 
         create_directories([self.data_ingestion_const.root_dir])
 
@@ -43,6 +44,7 @@ class ConfigurationManager:
     
   
     def get_data_validation_config(self) -> DataValidationConfig:
+        """This method assigns the constants for Data Validation config"""
 
         create_directories([self.data_validation_const.DATA_VALIDATION_ROOT_DIR])
 
@@ -56,6 +58,7 @@ class ConfigurationManager:
     
 
     def get_data_transformation_config(self) -> DataTransformationConfig:
+        """This method assigns the constants for Data Transformation config"""
 
         create_directories([self.data_transformation_const.DATA_TRANSFORMATION_ROOT_DIR])
 
@@ -70,6 +73,7 @@ class ConfigurationManager:
 
 
     def get_model_training_config(self) -> ModelTrainingConfig:
+        """This method assigns the constants for Model Training config"""
 
         config = ModelTrainingConstants()
         params = TrainingArguments()
@@ -95,6 +99,7 @@ class ConfigurationManager:
 
 
     def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        """This method assigns the constants for Model Evaluation config"""
 
         config = ModelEvaluationConstants()
         
