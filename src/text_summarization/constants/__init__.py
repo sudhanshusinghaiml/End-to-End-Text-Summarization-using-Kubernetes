@@ -44,7 +44,7 @@ class DataValidationConstants:
 @dataclass
 class DataTransformationConstants:
   DATA_TRANSFORMATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT,"DataTransformationArtifacts")
-  TRANSFORMED_DATA_PATH: str = os.path.join(DATA_TRANSFORMATION_ROOT_DIR, "samsum_dataset")
+  TRANSFORMED_DATA_PATH: str = os.path.join(ARTIFACTS_ROOT,"DataIngestionArtifacts", "samsum_dataset")
   TOKENIZER_NAME: str = "google/pegasus-cnn_dailymail"
 
 

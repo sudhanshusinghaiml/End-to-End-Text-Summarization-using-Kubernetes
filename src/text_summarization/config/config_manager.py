@@ -66,7 +66,7 @@ class ConfigurationManager:
 
         data_transformation_config = DataTransformationConfig(
             root_dir = self.data_transformation_const.DATA_TRANSFORMATION_ROOT_DIR,
-            data_path=self.data_transformation_const.TRANSFORMED_DATA_PATH,
+            transformed_data_path = self.data_transformation_const.TRANSFORMED_DATA_PATH,
             tokenizer_name = self.data_transformation_const.TOKENIZER_NAME
         )
 
