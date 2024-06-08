@@ -18,9 +18,15 @@ class DataIngestionPipeline:
         config = ConfigurationManager()
         data_ingestion_config = config.get_data_ingestion_config()
         data_ingestion = DataIngestion(config = data_ingestion_config)
-        data_ingestion.download_file()
-        data_ingestion.extract_zip_file()
-
+        if data_ingestion.get_file_from_url():
+            logging.info('Calling download_data_from_s3...')
+            if data_ingestion.download_data_from_s3():
+                logging.info('Calling extract_zip_file...')
+                data_ingestion.extract_zip_file()
+            else:
+                logging.exception('Failed to download files from S3') 
+        else:
+            logging.exception('Failed to get files from Open Source')
 
 
 class DataValidationPipeline:

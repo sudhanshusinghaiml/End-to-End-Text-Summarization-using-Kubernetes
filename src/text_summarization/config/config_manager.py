@@ -37,7 +37,9 @@ class ConfigurationManager:
             root_dir = self.data_ingestion_const.DATA_INGESTION_ROOT_DIR,
             data_url = self.data_ingestion_const.DATA_URL,
             downloaded_data_file = self.data_ingestion_const.DOWNLOADED_DATA_FILE,
-            unzipped_dir = self.data_ingestion_const.UNZIPPED_DIR 
+            unzipped_dir = self.data_ingestion_const.UNZIPPED_DIR,
+            data_bucket_name = self.data_ingestion_const.DATA_BUCKET_NAME,
+            data_file_name = self.data_ingestion_const.DATA_FILE_NAME
         )
 
         return data_ingestion_config

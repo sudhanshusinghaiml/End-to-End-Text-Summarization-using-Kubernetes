@@ -9,6 +9,8 @@ class DataIngestionConfig:
     data_url: str
     downloaded_data_file: Path
     unzipped_dir: Path
+    data_bucket_name: str
+    data_file_name: str
 
 
 @dataclass(frozen=True)

@@ -30,6 +30,7 @@ class DataIngestionConstants:
   DATA_URL: str = "https://text-summer-bucket.s3.amazonaws.com/summarizer-data.zip"
   DOWNLOADED_DATA_FILE: str = os.path.join(DATA_INGESTION_ROOT_DIR, DATA_FILE_NAME)
   UNZIPPED_DIR: str =  DATA_INGESTION_ROOT_DIR
+  DATA_BUCKET_NAME: str = "Text-Summarization-data-06062024"
 
 
 @dataclass

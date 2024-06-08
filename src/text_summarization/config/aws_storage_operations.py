@@ -20,31 +20,12 @@ class S3Operations:
         self.s3_client = boto3.client("s3")
         self.s3_resource = boto3.resource("s3")
 
-    def download_object(self, key, bucket_name, filename):
+
+    def download_object(self, file_name, bucket_name, file_path):
         """This method is used for downloading the file from S3"""
         bucket = self.s3_resource.Bucket(bucket_name)
-        bucket.download_file(Key=key, Filename=filename)
+        bucket.download_file(Key=file_name, Filename=file_path)
 
-    @staticmethod
-    def read_object(object_name: "boto3.resources.factory.s3.Object", 
-                    decode: bool = True) -> Union[bytes, str]:
-        """
-        Method Name :   read_object
-        Description :   This method reads the object_name object with kwargs
-        Output      :   The column name is renamed
-        """
-        logging.info("Inside the read_object method of S3Operations class")
-        try:
-            body = object_name.get()["Body"].read()
-
-            logging.info("Completed execution of the read_object method of S3Operations class")
-            if decode:
-                return body.decode()
-            return body
-
-        except Exception as error:
-            logging.error(error)
-            raise TextSummarizerException(error, sys) from error
 
     def get_bucket(self, bucket_name: str) -> Bucket:
         """
@@ -62,6 +43,7 @@ class S3Operations:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
 
+
     def is_model_present(self, bucket_name: str, s3_model_key: str) -> bool:
         """
         Method Name :   is_model_present
@@ -77,9 +59,6 @@ class S3Operations:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
 
-    def get_first_object_else_all(self, object_list: List) -> Union[object, List[object]]:
-        """This method is used to return the first or all objects"""
-        return object_list[0] if len(object_list) == 1 else object_list
 
     def get_file_object(self, filename: str, bucket_name: str) -> Union[List[object], object]:
         """
@@ -91,14 +70,15 @@ class S3Operations:
         try:
             bucket = self.get_bucket(bucket_name)
             # list_objects = [object for object in bucket.objects.filter(Prefix=filename)]
-            list_objects = list(bucket.objects.filter(Prefix=filename))
-            file_objs = self.get_first_object_else_all(list_objects)
+            object_list = list(bucket.objects.filter(Prefix=filename))
+            file_objs = object_list[0] if len(object_list) == 1 else object_list
             logging.info("Completed execution the get_file_object method of S3Operations class")
             return file_objs
 
         except Exception as error:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
+
 
     def load_model(self, model_name: str, bucket_name: str, model_dir=None) -> object:
         """
@@ -125,6 +105,7 @@ class S3Operations:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
 
+
     def create_folder(self, folder_name: str, bucket_name: str) -> None:
         """
         Method Name :   create_folder
@@ -144,7 +125,8 @@ class S3Operations:
                 pass
             logging.info("Completed execution of the create_folder method of S3Operations class")
 
-    def upload_file(self, from_filename: str, to_filename: str, bucket_name: str,
+
+    def upload_file(self, local_file_path: str, file_name: str, bucket_name: str,
                     remove: bool = True) -> None:
         """
         Method Name :   upload_file
@@ -155,18 +137,17 @@ class S3Operations:
         logging.info("Inside the upload_file method of S3Operations class")
         try:
             logging.info(
-                f"Uploading {from_filename} file to {to_filename} file in {bucket_name} bucket"
+                f"Uploading {local_file_path} file to {file_name} file in {bucket_name} bucket"
             )
 
-            self.s3_resource.meta.client.upload_file(
-                from_filename, bucket_name, to_filename
-            )
+            self.s3_resource.Bucket(bucket_name).upload_file(local_file_path, file_name)
+
             logging.info(
-                f"Uploaded {from_filename} file to {to_filename} file in {bucket_name} bucket"
+                f"Uploaded {local_file_path} file to {file_name} file in {bucket_name} bucket"
             )
 
             if remove is True:
-                os.remove(from_filename)
+                os.remove(local_file_path)
                 logging.info(f"Remove is set to {remove}, deleted the file")
             else:
                 logging.info(f"Remove is set to {remove}, not deleted the file")
@@ -175,6 +156,7 @@ class S3Operations:
         except Exception as error:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
+
 
     def upload_folder(self, folder_name: str, bucket_name: str) -> None:
         """
@@ -185,24 +167,23 @@ class S3Operations:
         """
         logging.info("Inside the upload_folder method of S3Operations class")
         try:
-            lst = os.listdir(folder_name)
-            for file in lst:
-                local_file = os.path.join(folder_name, file)
-                dest_file = file
-                self.upload_file(local_file, dest_file, bucket_name, remove=False)
+            folder_list = os.listdir(folder_name)
+            for file in folder_list:
+                local_file_path = os.path.join(folder_name, file)
+                file_name = file
+                self.upload_file(local_file_path, file_name, bucket_name, remove=False)
             logging.info("Completed execution of the upload_folder method of S3Operations class")
 
         except Exception as error:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
 
-    def upload_df_as_csv(
-        self,
-        data_frame: DataFrame,
-        local_filename: str,
-        bucket_filename: str,
-        bucket_name: str,
-    ) -> None:
+
+    def upload_df_as_csv(self, 
+                         data_frame: DataFrame, 
+                         local_file_path: str, 
+                         bucket_file_name: str, 
+                         bucket_name: str) -> None:
         """
         Method Name :   upload_df_as_csv
         Description :   This method uploads the dataframe to bucket_filename csv file
@@ -211,13 +192,14 @@ class S3Operations:
         """
         logging.info("Inside the upload_df_as_csv method of S3Operations class")
         try:
-            data_frame.to_csv(local_filename, index=None, header=True)
-            self.upload_file(local_filename, bucket_filename, bucket_name)
+            data_frame.to_csv(local_file_path, index=None, header=True)
+            self.upload_file(local_file_path, bucket_file_name, bucket_name)
             logging.info("Completed execution of the upload_df_as_csv method of S3Operations class")
 
         except Exception as error:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
+
 
     def get_df_from_object(self, object_: object) -> DataFrame:
         """
@@ -237,7 +219,8 @@ class S3Operations:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
 
-    def read_csv(self, filename: str, bucket_name: str) -> DataFrame:
+
+    def read_csv(self, file_name: str, bucket_name: str) -> DataFrame:
         """
         Method Name :   get_df_from_object
         Description :   This method gets the dataframe from the object_name object
@@ -245,7 +228,7 @@ class S3Operations:
         """
         logging.info("Inside the read_csv method of S3Operations class")
         try:
-            csv_obj = self.get_file_object(filename, bucket_name)
+            csv_obj = self.get_file_object(file_name, bucket_name)
             read_csv_df = self.get_df_from_object(csv_obj)
             logging.info("Completed execution of the read_csv method of S3Operations class")
             return read_csv_df
