@@ -31,7 +31,7 @@ class ConfigurationManager:
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         """This method assigns the constants for Data Ingestion config"""
 
-        create_directories([self.data_ingestion_const.root_dir])
+        create_directories([self.data_ingestion_const.DATA_INGESTION_ROOT_DIR])
 
         data_ingestion_config = DataIngestionConfig(
             root_dir = self.data_ingestion_const.DATA_INGESTION_ROOT_DIR,
@@ -53,7 +53,7 @@ class ConfigurationManager:
         data_validation_config = DataValidationConfig(
             root_dir = self.data_validation_const.DATA_VALIDATION_ROOT_DIR,
             status_file = self.data_validation_const.DATA_VALIDATION_STATUS_FILE,
-            all_required_files = self.data_validation_const.ALL_REQUIRED_FILES,
+            all_required_files = ["train", "test", "validation"]
         )
 
         return data_validation_config

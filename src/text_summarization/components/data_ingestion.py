@@ -27,7 +27,7 @@ class DataIngestion:
             logging.info(f"File already exists of size: {get_size(Path(self.config.downloaded_data_file))}")
             logging.info(f"Pushing the {filename} into Bucket - {self.config.data_bucket_name}")
 
-            return os.path.exists(self.config.downloaded_data_file)
+        return True
 
 
     def extract_zip_file(self):
