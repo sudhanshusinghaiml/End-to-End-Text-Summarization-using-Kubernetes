@@ -13,7 +13,7 @@ class DataValiadtion:
         try:
             validation_status = None
 
-            all_files = os.listdir(os.path.join(DataIngestionConstants.UNZIPPED_DIR,"samsum_dataset"))
+            all_files = os.listdir(DataIngestionConstants.UNZIPPED_DIR)
 
             for file in all_files:
                 if file not in self.config.all_required_files:

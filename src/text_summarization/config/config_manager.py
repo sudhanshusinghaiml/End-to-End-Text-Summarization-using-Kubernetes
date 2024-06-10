@@ -53,7 +53,7 @@ class ConfigurationManager:
         data_validation_config = DataValidationConfig(
             root_dir = self.data_validation_const.DATA_VALIDATION_ROOT_DIR,
             status_file = self.data_validation_const.DATA_VALIDATION_STATUS_FILE,
-            all_required_files = ["train", "test", "validation"]
+            all_required_files = ["samsum-train.csv", "samsum-test.csv", "samsum-validation.csv"]
         )
 
         return data_validation_config
@@ -67,7 +67,10 @@ class ConfigurationManager:
         data_transformation_config = DataTransformationConfig(
             root_dir = self.data_transformation_const.DATA_TRANSFORMATION_ROOT_DIR,
             transformed_data_path = self.data_transformation_const.TRANSFORMED_DATA_PATH,
-            tokenizer_name = self.data_transformation_const.TOKENIZER_NAME
+            tokenizer_name = self.data_transformation_const.TOKENIZER_NAME,
+            max_input_length= self.data_transformation_const.MAX_INPUT_LENGTH,
+            max_target_length= self.data_transformation_const.MAX_TARGET_LENGTH,
+            prefix = self.data_transformation_const.PREFIX
         )
 
         return data_transformation_config
@@ -79,15 +82,16 @@ class ConfigurationManager:
 
         config = ModelTrainingConstants()
         params = TrainingArguments()
-        create_directories([config.root_dir])
+        create_directories([config.MODEL_TRAINING_ROOT_DIR])
 
         model_trainer_config = ModelTrainingConfig(
-            root_dir=config.MODEL_TRAINING_ROOT_DIR,
+            root_dir = config.MODEL_TRAINING_ROOT_DIR,
             data_path=config.MODEL_TRAINING_DATA_PATH,
             model_ckpt = config.MODEL_CKPT,
             num_train_epochs = params.NUM_TRAIN_EPOCHS,
             warmup_steps = params.WARMUP_STEPS,
             per_device_train_batch_size = params.PER_DEVICE_TRAIN_BATCH_SIZE,
+            per_device_eval_batch_size = params.PER_DEVICE_EVAL_BATCH_SIZE,
             weight_decay = params.WEIGHT_DECAY,
             logging_steps = params.LOGGING_STEPS,
             evaluation_strategy = params.EVALUATION_STRATEGY,

@@ -15,11 +15,12 @@ class TrainingArguments:
   NUM_TRAIN_EPOCHS = 1
   WARMUP_STEPS = 500
   PER_DEVICE_TRAIN_BATCH_SIZE = 1
+  PER_DEVICE_EVAL_BATCH_SIZE = 1
   WEIGHT_DECAY = 0.01
   LOGGING_STEPS = 10
-  EVALUATION_STRATEGY = "STEPS"
-  EVAL_STEPS = 500
-  SAVE_STEPS = 1E6
+  EVALUATION_STRATEGY = "steps"
+  EVAL_STEPS = 50
+  SAVE_STEPS = 1e6
   GRADIENT_ACCUMULATION_STEPS = 16
 
 
@@ -44,8 +45,11 @@ class DataValidationConstants:
 @dataclass
 class DataTransformationConstants:
   DATA_TRANSFORMATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT,"DataTransformationArtifacts")
-  TRANSFORMED_DATA_PATH: str = os.path.join(ARTIFACTS_ROOT,"DataIngestionArtifacts", "samsum_dataset")
+  TRANSFORMED_DATA_PATH: str = DataIngestionConstants.DATA_INGESTION_ROOT_DIR
   TOKENIZER_NAME: str = "google/pegasus-cnn_dailymail"
+  MAX_INPUT_LENGTH: int = 1024
+  MAX_TARGET_LENGTH: int = 128
+  PREFIX: str = "Summarize: "
 
 
 

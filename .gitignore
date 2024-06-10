@@ -157,4 +157,4 @@ facebook-bart-base-finetuned/model.safetensors
 
 google-flan-t5-base-finetuned/training_args.bin
 artifacts/
-input/data.zip
+data/
