@@ -116,7 +116,7 @@ class ConfigurationManager:
         model_evaluation_config = ModelEvaluationConfig(
             root_dir=config.MODEL_EVALUATION_ROOT_DIR,
             data_path=config.DATA_PATH,
-            model_path = config.SAVED_MODEL_PATH,
+            saved_model_path = config.SAVED_MODEL_PATH,
             tokenizer_path = config.TOKENIZER_PATH,
             metric_file_name = config.METRIC_FILE_NAME
            
