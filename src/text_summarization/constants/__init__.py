@@ -56,7 +56,7 @@ class DataTransformationConstants:
 @dataclass
 class ModelTrainingConstants:
   MODEL_TRAINING_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelTraining")
-  MODEL_TRAINING_DATA_PATH: str = DataTransformationConstants.TRANSFORMED_DATA_PATH
+  MODEL_TRAINING_DATA_PATH: str = DataTransformationConstants.DATA_TRANSFORMATION_ROOT_DIR
   MODEL_CKPT: str = "google/pegasus-cnn_dailymail"
 
 

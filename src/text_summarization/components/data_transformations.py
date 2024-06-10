@@ -71,13 +71,15 @@ class DataTransformation:
         # dataset_samsum = load_from_disk(self.config.transformed_data_path)
         dataset_samsum = self.load_samsum_dataset()
 
-        logging.info(f"Logging trying to asses the dataset - {dataset_samsum}")
+        logging.info(f"Logging to asses the dataset - {dataset_samsum}")
 
-        dataset_samsum_pt = dataset_samsum.map(self.preprocess_dataset)
+        dataset_samsum_pt = dataset_samsum.map(self.preprocess_dataset, batched=True)
 
-        logging.info("Model Inputs for training datasets \n {dataset_samsum_pt['train'][:2]}")
-        logging.info("Model Inputs for test datasets \n {dataset_samsum_pt['test'][:2]}")
-        logging.info("Model Inputs for validation datasets \n {dataset_samsum_pt['validation'][:2]}")
+        logging.info(f"Logging to asses the dataset after pre-processing - {dataset_samsum_pt}")
 
-        dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+        logging.info(f"Model Inputs for training datasets \n {dataset_samsum_pt['train'][:2]}")
+        logging.info(f"Model Inputs for test datasets \n {dataset_samsum_pt['test'][:2]}")
+        logging.info(f"Model Inputs for validation datasets \n {dataset_samsum_pt['validation'][:2]}")
+
+        dataset_samsum_pt.save_to_disk(self.config.root_dir)
 
