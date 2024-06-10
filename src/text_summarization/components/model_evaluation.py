@@ -12,7 +12,6 @@ class ModelEvaluation:
         self.config = config
 
 
-    
     def generate_batch_sized_chunks(self, list_of_elements, batch_size):
         """split the dataset into smaller batches that we can process simultaneously
         Yield successive batch-sized chunks from list_of_elements."""
@@ -21,9 +20,11 @@ class ModelEvaluation:
 
     
     def calculate_metric_on_test_ds(self,dataset, metric, model, tokenizer, 
-                               batch_size=16, device="cuda" if torch.cuda.is_available() else "cpu", 
+                               batch_size=16, 
+                               device="cuda" if torch.cuda.is_available() else "cpu", 
                                column_text="article", 
                                column_summary="highlights"):
+        
         article_batches = list(self.generate_batch_sized_chunks(dataset[column_text], batch_size))
         target_batches = list(self.generate_batch_sized_chunks(dataset[column_summary], batch_size))
 
@@ -43,7 +44,7 @@ class ModelEvaluation:
             # replace the  token, and add the decoded texts with the references to the metric.
             decoded_summaries = [tokenizer.decode(s, skip_special_tokens=True, 
                                     clean_up_tokenization_spaces=True) 
-                for s in summaries]      
+                for s in summaries]     
             
             decoded_summaries = [d.replace("", " ") for d in decoded_summaries]
             

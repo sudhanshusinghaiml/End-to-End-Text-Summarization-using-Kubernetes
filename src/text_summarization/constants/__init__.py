@@ -58,13 +58,14 @@ class ModelTrainingConstants:
   MODEL_TRAINING_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelTraining")
   MODEL_TRAINING_DATA_PATH: str = DataTransformationConstants.DATA_TRANSFORMATION_ROOT_DIR
   MODEL_CKPT: str = "google/pegasus-cnn_dailymail"
-
+  MODEL_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "TrainedModel")
+  TOKENIZER_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "Tokenizer")
 
 @dataclass
 class ModelEvaluationConstants:
   MODEL_EVALUATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelEvaluation")
   DATA_PATH: str =  ModelTrainingConstants.MODEL_TRAINING_DATA_PATH
-  SAVED_MODEL_PATH: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "TrainedModel" )
-  TOKENIZER_PATH: str =  os.path.join(MODEL_EVALUATION_ROOT_DIR, "Tokenizer" )
+  SAVED_MODEL_PATH: str = ModelTrainingConstants.MODEL_PATH
+  TOKENIZER_PATH: str =  ModelTrainingConstants.TOKENIZER_PATH
   METRIC_FILE_NAME: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "metrics.csv")
 

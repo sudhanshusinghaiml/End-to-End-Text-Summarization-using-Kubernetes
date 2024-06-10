@@ -75,7 +75,7 @@ class ModelTraining:
         logging.info(f"Model Training completed.")
 
         logging.info(f"Saving Trained Model - {self.config.root_dir}")
-        model.save_pretrained(os.path.join(self.config.root_dir,"model"))
+        model.save_pretrained(self.config.model_path)
 
         logging.info(f"Saving tokenizer - {self.config.root_dir}")
-        tokenizer.save_pretrained(os.path.join(self.config.root_dir,"tokenizer"))
+        tokenizer.save_pretrained(self.config.tokenizer_path)

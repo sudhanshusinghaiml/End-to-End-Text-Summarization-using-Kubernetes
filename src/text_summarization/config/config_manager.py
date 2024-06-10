@@ -88,6 +88,8 @@ class ConfigurationManager:
             root_dir = config.MODEL_TRAINING_ROOT_DIR,
             data_path=config.MODEL_TRAINING_DATA_PATH,
             model_ckpt = config.MODEL_CKPT,
+            model_path = config.MODEL_PATH,
+            tokenizer_path = config.TOKENIZER_PATH,
             num_train_epochs = params.NUM_TRAIN_EPOCHS,
             warmup_steps = params.WARMUP_STEPS,
             per_device_train_batch_size = params.PER_DEVICE_TRAIN_BATCH_SIZE,
