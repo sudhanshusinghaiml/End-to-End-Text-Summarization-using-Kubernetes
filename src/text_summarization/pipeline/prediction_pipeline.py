@@ -72,18 +72,20 @@ class PredictionPipeline:
 
         self.get_latest_tokenizer_from_s3()
 
+        logging.info(f"Tokenizer Path - {self.config.tokenizer_path}")
+
         tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
         
         gen_kwargs = {"length_penalty": 0.8, "num_beams":8, "max_length": 128}
 
+        logging.info(f"Downloaded Model Path - {self.config.saved_model_path}")
+
         pipe = pipeline("summarization", model = self.config.saved_model_path, tokenizer=tokenizer)
 
-        print("Dialogue:")
-        print(text)
+        print(f"Dialogue: {text}")
 
         output = pipe(text, **gen_kwargs)[0]["summary_text"]
-        print("\nModel Summary:")
-        print(output)
+        print(f"Model Summary: {output}")
 
         logging.info("Completed execution of PredictionPipeline.predict methods")
 
