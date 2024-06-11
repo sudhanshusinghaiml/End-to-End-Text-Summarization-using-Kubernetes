@@ -7,14 +7,16 @@ from src.text_summarization.constants import ( TrainingArguments,
                                               DataTransformationConstants,
                                               DataValidationConstants,
                                               ModelTrainingConstants,
-                                              ModelEvaluationConstants)
+                                              ModelEvaluationConstants,
+                                              PredictionPipelineConstants)
 
 from src.text_summarization.utils.common_utils import read_yaml, create_directories
 from src.text_summarization.entity import (DataIngestionConfig, 
                                            DataValidationConfig, 
                                            DataTransformationConfig, 
                                            ModelTrainingConfig,
-                                           ModelEvaluationConfig
+                                           ModelEvaluationConfig,
+                                           PredictionPipelineConfig
                                           )
 
 
@@ -118,8 +120,26 @@ class ConfigurationManager:
             data_path=config.DATA_PATH,
             saved_model_path = config.SAVED_MODEL_PATH,
             tokenizer_path = config.TOKENIZER_PATH,
-            metric_file_name = config.METRIC_FILE_NAME
-           
+            metric_file_name = config.METRIC_FILE_NAME,
+            model_bucket_name = config.MODEL_BUCKET_NAME           
         )
 
         return model_evaluation_config
+
+    def get_prediction_pipeline_config(self) -> PredictionPipelineConfig:
+        """This method sets the prediction pipeline config"""
+        config = PredictionPipelineConstants()
+
+        create_directories([config.PREDICTION_PIPELINE_ROOT_DIR])
+
+        prediction_pipeline_config = PredictionPipelineConfig(
+            root_dir = config.PREDICTION_PIPELINE_ROOT_DIR,
+            data_path = config.PREDICTION_DATA_PATH,
+            saved_model_path = config.MODEL_FOR_PREDICTION,
+            tokenizer_path = config.TOKENIZER_FOR_PREDICTION,
+            model_bucket_name = config.MODEL_BUCKET_NAME,
+            model_prefix = config.MODEL_PREFIX,
+            tokenizer_prefix = config.TOKENIZER_PREFIX
+        )
+
+        return prediction_pipeline_config

@@ -59,3 +59,16 @@ class ModelEvaluationConfig:
     saved_model_path: Path
     tokenizer_path: Path
     metric_file_name: Path
+    model_bucket_name: str
+
+
+
+@dataclass(frozen=True)
+class PredictionPipelineConfig:
+    root_dir: Path
+    data_path: Path
+    saved_model_path: Path
+    tokenizer_path: Path
+    model_bucket_name: str
+    model_prefix: str
+    tokenizer_prefix: str

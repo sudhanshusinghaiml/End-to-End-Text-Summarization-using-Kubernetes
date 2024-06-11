@@ -24,6 +24,7 @@ class TrainingArguments:
   GRADIENT_ACCUMULATION_STEPS = 16
 
 
+
 @dataclass
 class DataIngestionConstants:
   DATA_INGESTION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT,"DataIngestionArtifacts")
@@ -34,12 +35,14 @@ class DataIngestionConstants:
   DATA_BUCKET_NAME: str = "text-summarization-data-06062024"
 
 
+
 @dataclass
 class DataValidationConstants:
   DATA_VALIDATION_STATUS_FILE = "status.txt"
   ALL_REQUIRED_FILES: List[str] = field(default_factory=list)
   DATA_VALIDATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT,"DataValidationArtifacts")
   DATA_VALIDATION_STATUS_FILE: str = os.path.join(DATA_VALIDATION_ROOT_DIR, DATA_VALIDATION_STATUS_FILE)
+
 
 
 @dataclass
@@ -61,6 +64,8 @@ class ModelTrainingConstants:
   MODEL_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "TrainedModel")
   TOKENIZER_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "Tokenizer")
 
+
+
 @dataclass
 class ModelEvaluationConstants:
   MODEL_EVALUATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelEvaluation")
@@ -68,4 +73,15 @@ class ModelEvaluationConstants:
   SAVED_MODEL_PATH: str = ModelTrainingConstants.MODEL_PATH
   TOKENIZER_PATH: str =  ModelTrainingConstants.TOKENIZER_PATH
   METRIC_FILE_NAME: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "metrics.csv")
+  MODEL_BUCKET_NAME: str = "text-summarization-models-06062024"
 
+
+@dataclass
+class PredictionPipelineConstants:
+  PREDICTION_PIPELINE_ROOT_DIR: str = os.path.join("artifacts","PredictionPipeline")
+  PREDICTION_DATA_PATH: str = os.path.join(PREDICTION_PIPELINE_ROOT_DIR, "data")
+  MODEL_BUCKET_NAME: str = ModelEvaluationConstants.MODEL_BUCKET_NAME
+  MODEL_PREFIX: str = "models"
+  TOKENIZER_PREFIX: str = "tokenizer"
+  MODEL_FOR_PREDICTION: str = os.path.join(PREDICTION_PIPELINE_ROOT_DIR, MODEL_PREFIX)
+  TOKENIZER_FOR_PREDICTION: str = os.path.join(PREDICTION_PIPELINE_ROOT_DIR, TOKENIZER_PREFIX)
