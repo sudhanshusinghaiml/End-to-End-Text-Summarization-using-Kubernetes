@@ -127,7 +127,7 @@ class S3Operations:
 
 
     def upload_file(self, local_file_path: str, file_name: str, bucket_name: str,
-                    remove: bool = True) -> None:
+                    remove: bool = False) -> None:
         """
         Method Name :   upload_file
         Description :   This method uploads the from_filename file to bucket_name bucket with
@@ -271,3 +271,8 @@ class S3Operations:
                     )
         else:
             logging.info(f"No files found in folder 'model' of bucket {model_bucket_name}")
+
+
+    def is_bucket_empty(self, bucket_name):
+        response = self.s3_client.list_object_v2(Bucket=bucket_name, MaxKeys=1)
+        return 'Contents' not in response

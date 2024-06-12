@@ -56,11 +56,28 @@ class ModelTrainingConfig:
 class ModelEvaluationConfig:
     root_dir: Path
     data_path: Path
-    saved_model_path: Path
-    tokenizer_path: Path
+    trained_model_path: Path
+    trained_tokenizer_path: Path
+    model_prefix: str
+    tokenizer_prefix: str
+    downloaded_model_path: Path
+    downloaded_tokenizer_path: Path
     metric_file_name: Path
     model_bucket_name: str
+    model_status_file: str
 
+@dataclass(frozen=True)
+class ModelPusherConfig:
+    reference_dir: Path
+    trained_model_path: Path
+    trained_tokenizer_path: Path
+    model_prefix: str
+    tokenizer_prefix: str
+    downloaded_model_path: Path
+    downloaded_tokenizer_path: Path
+    metric_file_name: Path
+    model_bucket_name: str
+    model_status_file: str
 
 
 @dataclass(frozen=True)

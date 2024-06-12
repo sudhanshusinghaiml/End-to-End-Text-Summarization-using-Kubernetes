@@ -4,6 +4,7 @@ from src.text_summarization.components.data_transformations import DataTransform
 from src.text_summarization.components.data_validation import DataValiadtion
 from src.text_summarization.components.model_evaluation import ModelEvaluation
 from src.text_summarization.components.model_trainer import ModelTraining
+from src.text_summarization.components.model_pusher import ModelPusher
 from src.text_summarization.logger import logging
 
 
@@ -90,3 +91,18 @@ class ModelEvaluationPipeline:
         model_evaluation_config = ModelEvaluation(config = model_evaluation_config)
         model_evaluation_config.evaluate()
         logging.info("Completed execution of ModelEvaluationPipeline.main of model_training_pipeline module")
+
+
+class ModelPusherPipeline:
+    """This class contains the methods that triggers the Model Pusher Pipeline"""
+    def __init__(self):
+        pass
+
+    def main(self):
+        """This method triggers the Model Pusher Pipeline"""
+        logging.info("Inside ModelPusherPipeline.main of model_training_pipeline module")
+        config = ConfigurationManager()
+        model_pusher_config = config.get_model_pusher_config()
+        model_pusher_config = ModelPusher(config = model_pusher_config)
+        model_pusher_config.initiate_model_pusher()
+        logging.info("Completed execution of ModelPusherPipeline.main of model_training_pipeline module")

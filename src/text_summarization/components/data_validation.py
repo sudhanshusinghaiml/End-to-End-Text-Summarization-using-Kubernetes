@@ -1,7 +1,8 @@
-import os
+import os, sys
 from src.text_summarization.logger import logging
 from src.text_summarization.entity import DataValidationConfig
 from src.text_summarization.constants import DataIngestionConstants
+from src.text_summarization.exception import TextSummarizerException
 
 
 class DataValiadtion:
@@ -27,5 +28,6 @@ class DataValiadtion:
 
             return validation_status
         
-        except Exception as e:
-            raise e
+        except Exception as error:
+            logging.exception(error)
+            raise TextSummarizerException(error, sys)

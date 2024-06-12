@@ -61,19 +61,41 @@ class ModelTrainingConstants:
   MODEL_TRAINING_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelTraining")
   MODEL_TRAINING_DATA_PATH: str = DataTransformationConstants.DATA_TRANSFORMATION_ROOT_DIR
   MODEL_CKPT: str = "google/pegasus-cnn_dailymail"
-  MODEL_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "TrainedModel")
-  TOKENIZER_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "Tokenizer")
-
+  MODEL_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "models")
+  TOKENIZER_PATH: str = os.path.join(MODEL_TRAINING_ROOT_DIR, "tokenizer")
+  
 
 
 @dataclass
 class ModelEvaluationConstants:
   MODEL_EVALUATION_ROOT_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelEvaluation")
   DATA_PATH: str =  ModelTrainingConstants.MODEL_TRAINING_DATA_PATH
-  SAVED_MODEL_PATH: str = ModelTrainingConstants.MODEL_PATH
-  TOKENIZER_PATH: str =  ModelTrainingConstants.TOKENIZER_PATH
+  TRAINED_MODEL_PATH: str = ModelTrainingConstants.MODEL_PATH
+  TRAINED_TOKENIZER_PATH: str =  ModelTrainingConstants.TOKENIZER_PATH
+  MODEL_PREFIX: str = "models"
+  TOKENIZER_PREFIX: str = "tokenizer"
+  DOWNLOADED_MODEL_PATH: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, MODEL_PREFIX)
+  DOWNLOADED_TOKENIZER_PATH: str =  os.path.join(MODEL_EVALUATION_ROOT_DIR, TOKENIZER_PREFIX)
   METRIC_FILE_NAME: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, "metrics.csv")
   MODEL_BUCKET_NAME: str = "text-summarization-models-06062024"
+  MODEL_EVALUATION_STATUS_FILE = "model_evaluation.json"
+  MODEL_EVALUATION_STATUS_FILE: str = os.path.join(MODEL_EVALUATION_ROOT_DIR, MODEL_EVALUATION_STATUS_FILE)
+
+
+
+@dataclass
+class ModelPusherConstants:
+  REFERENCE_DIR: str = os.path.join(ARTIFACTS_ROOT, "ModelEvaluation")
+  TRAINED_MODEL_PATH: str = ModelTrainingConstants.MODEL_PATH
+  TRAINED_TOKENIZER_PATH: str =  ModelTrainingConstants.TOKENIZER_PATH
+  MODEL_PREFIX: str = ModelEvaluationConstants.MODEL_PREFIX
+  TOKENIZER_PREFIX: str = ModelEvaluationConstants.TOKENIZER_PREFIX
+  DOWNLOADED_MODEL_PATH: str = ModelEvaluationConstants.DOWNLOADED_MODEL_PATH
+  DOWNLOADED_TOKENIZER_PATH: str =  ModelEvaluationConstants.DOWNLOADED_TOKENIZER_PATH
+  METRIC_FILE_NAME: str = ModelEvaluationConstants.METRIC_FILE_NAME
+  MODEL_BUCKET_NAME: str = ModelEvaluationConstants.MODEL_BUCKET_NAME
+  MODEL_EVALUATION_STATUS_FILE: str = ModelEvaluationConstants.MODEL_EVALUATION_STATUS_FILE
+
 
 
 @dataclass
@@ -81,7 +103,7 @@ class PredictionPipelineConstants:
   PREDICTION_PIPELINE_ROOT_DIR: str = os.path.join("artifacts","PredictionPipeline")
   PREDICTION_DATA_PATH: str = os.path.join(PREDICTION_PIPELINE_ROOT_DIR, "data")
   MODEL_BUCKET_NAME: str = ModelEvaluationConstants.MODEL_BUCKET_NAME
-  MODEL_PREFIX: str = "models"
-  TOKENIZER_PREFIX: str = "tokenizer"
+  MODEL_PREFIX: str = ModelEvaluationConstants.MODEL_PREFIX
+  TOKENIZER_PREFIX: str = ModelEvaluationConstants.TOKENIZER_PREFIX
   MODEL_FOR_PREDICTION: str = os.path.join(PREDICTION_PIPELINE_ROOT_DIR, MODEL_PREFIX)
   TOKENIZER_FOR_PREDICTION: str = os.path.join(PREDICTION_PIPELINE_ROOT_DIR, TOKENIZER_PREFIX)

@@ -8,6 +8,7 @@ from src.text_summarization.constants import ( TrainingArguments,
                                               DataValidationConstants,
                                               ModelTrainingConstants,
                                               ModelEvaluationConstants,
+                                              ModelPusherConstants,
                                               PredictionPipelineConstants)
 
 from src.text_summarization.utils.common_utils import read_yaml, create_directories
@@ -16,6 +17,7 @@ from src.text_summarization.entity import (DataIngestionConfig,
                                            DataTransformationConfig, 
                                            ModelTrainingConfig,
                                            ModelEvaluationConfig,
+                                           ModelPusherConfig,
                                            PredictionPipelineConfig
                                           )
 
@@ -102,7 +104,7 @@ class ConfigurationManager:
             eval_steps = params.EVAL_STEPS,
             save_steps = params.SAVE_STEPS,
             gradient_accumulation_steps = params.GRADIENT_ACCUMULATION_STEPS
-        )
+            )
 
         return model_trainer_config
     
@@ -118,13 +120,40 @@ class ConfigurationManager:
         model_evaluation_config = ModelEvaluationConfig(
             root_dir=config.MODEL_EVALUATION_ROOT_DIR,
             data_path=config.DATA_PATH,
-            saved_model_path = config.SAVED_MODEL_PATH,
-            tokenizer_path = config.TOKENIZER_PATH,
+            trained_model_path = config.TRAINED_MODEL_PATH,
+            trained_tokenizer_path = config.TRAINED_TOKENIZER_PATH,
+            downloaded_model_path = config.DOWNLOADED_MODEL_PATH,
+            downloaded_tokenizer_path = config.DOWNLOADED_TOKENIZER_PATH,
             metric_file_name = config.METRIC_FILE_NAME,
-            model_bucket_name = config.MODEL_BUCKET_NAME           
-        )
+            model_bucket_name = config.MODEL_BUCKET_NAME,
+            model_prefix = config.MODEL_PREFIX,
+            tokenizer_prefix = config.TOKENIZER_PREFIX,
+            model_status_file = config.MODEL_EVALUATION_STATUS_FILE
+            )
 
         return model_evaluation_config
+    
+
+    def get_model_pusher_config(self) -> ModelPusherConfig:
+        """This method assigns the constants for Model Evaluation config"""
+
+        config = ModelPusherConstants()
+
+        model_pusher_config = ModelPusherConfig(
+            reference_dir = config.REFERENCE_DIR,
+            trained_model_path = config.TRAINED_MODEL_PATH,
+            trained_tokenizer_path = config.TRAINED_TOKENIZER_PATH,
+            downloaded_model_path = config.DOWNLOADED_MODEL_PATH,
+            downloaded_tokenizer_path = config.DOWNLOADED_TOKENIZER_PATH,
+            metric_file_name = config.METRIC_FILE_NAME,
+            model_bucket_name = config.MODEL_BUCKET_NAME,
+            model_prefix = config.MODEL_PREFIX,
+            tokenizer_prefix = config.TOKENIZER_PREFIX,
+            model_status_file = config.MODEL_EVALUATION_STATUS_FILE
+            )
+
+        return model_pusher_config
+
 
     def get_prediction_pipeline_config(self) -> PredictionPipelineConfig:
         """This method sets the prediction pipeline config"""
@@ -140,6 +169,6 @@ class ConfigurationManager:
             model_bucket_name = config.MODEL_BUCKET_NAME,
             model_prefix = config.MODEL_PREFIX,
             tokenizer_prefix = config.TOKENIZER_PREFIX
-        )
+            )
 
         return prediction_pipeline_config
