@@ -6,9 +6,9 @@ from typing import List, Union
 import pickle
 from pandas import DataFrame, read_csv
 import boto3
+from datetime import datetime, timedelta
 from botocore.exceptions import ClientError
 from mypy_boto3_s3.service_resource import Bucket
-
 from src.text_summarization.logger import logging
 from src.text_summarization.exception import TextSummarizerException
 
@@ -236,3 +236,38 @@ class S3Operations:
         except Exception as error:
             logging.error(error)
             raise TextSummarizerException(error, sys) from error
+
+    @staticmethod
+    def is_modified_within_last_24_hours(file_path):
+        """This method is used to check if the downloaded files are latest or not"""
+        
+        last_modified_time = os.path.getmtime(file_path)
+        current_time = datetime.now()
+        last_modified_datetime = datetime.fromtimestamp(last_modified_time)
+        logging.info(f" File {file_path} last modified at {last_modified_datetime} and difference between modified and current datetime is {current_time - last_modified_datetime}")
+
+        return (current_time - last_modified_datetime) < timedelta(hours=24)
+
+    
+    def get_latest_model_from_s3(self, model_bucket_name, model_prefix, model_directory):
+        logging.info(f"Downloading latest model from S3 Bucket")
+      
+        response = self.s3_client.list_objects_v2(
+            Bucket = model_bucket_name,
+            Prefix = model_prefix + "/"
+            )
+        
+        logging.info(f"Latest response from S3 Bucket - {response}")
+        
+        if 'Contents' in response:
+            for obj in response['Contents']:
+                file_name = obj['Key']
+                file_name_with_path = os.path.join(model_directory, file_name)
+                os.makedirs(os.path.dirname(file_name_with_path), exist_ok=True)
+                self.s3_client.download_file(
+                    model_bucket_name,
+                    file_name,
+                    file_name_with_path
+                    )
+        else:
+            logging.info(f"No files found in folder 'model' of bucket {model_bucket_name}")
