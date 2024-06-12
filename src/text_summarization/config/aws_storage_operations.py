@@ -274,5 +274,5 @@ class S3Operations:
 
 
     def is_bucket_empty(self, bucket_name):
-        response = self.s3_client.list_object_v2(Bucket=bucket_name, MaxKeys=1)
+        response = self.s3_client.list_objects_v2(Bucket=bucket_name, MaxKeys=1)
         return 'Contents' not in response
